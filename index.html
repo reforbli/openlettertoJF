@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.6, maximum-scale=1.8"
+    />
+    <title>Open Letter to Blizzard President Johanna Faries</title>
+
+    <!-- Google Analytics Tag -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YHKQYNZJE3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-YHKQYNZJE3");
+    </script>
+    <style>
+      .sky-blue-background {
+        background-color: #e0f7fa;
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid #ccc;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        box-sizing: border-box;
+        text-align: left;
+        font-size: 20px; /* 기본 폰트 크기를 20px로 설정 */
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0; /* h 태그의 기본 마진을 0으로 설정 */
+      }
+      h1 {
+        font-size: 45px; /* h1 태그의 크기를 36px로 설정 */
+        display: inline;
+      }
+      h2 {
+        display: inline;
+        font-size: 32px; /* h2 태그의 크기를 32px로 설정 */
+      }
+      h3 {
+        display: inline;
+        font-size: 28px; /* h3 태그의 크기를 28px로 설정 */
+      }
+      h4 {
+        display: inline;
+        font-size: 24px; /* h4 태그의 크기를 24px로 설정 */
+      }
+      h5 {
+        display: inline;
+        font-size: 20px; /* h5 태그의 크기를 20px로 설정 */
+      }
+      h6 {
+        display: inline;
+        font-size: 18px;
+      }
+      #content {
+        text-align: left;
+        margin-top: 150px;
+        padding: 10px;
+      }
+      #content p {
+        text-align: left;
+        white-space: pre-wrap;
+        max-width: 1300px;
+        line-height: 1.4;
+        /* 글 라인과 다음라인사이의 거리조절 */
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      nav ul li .sub-menu {
+        display: block;
+        position: static;
+        background-color: #333;
+        z-index: 1000;
+      }
+      nav ul li a.active {
+        background-color: #4e4c4c;
+        color: white;
+      }
+      nav ul li {
+        float: left;
+      }
+      nav ul li a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .sub-menu {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        margin-top: 14px;
+        z-index: 1;
+      }
+      nav ul li:hover .sub-menu {
+        display: block;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      @media screen and (max-width: 600px) {
+        nav {
+          height: 50px;
+          background-color: #333;
+          width: 100%;
+          top: 0;
+          left: 0;
+          z-index: 1000;
+          position: fixed;
+        }
+        nav ul {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0;
+          margin: 0;
+          list-style: none;
+        }
+        nav ul li {
+          flex: 1 1 50%;
+          text-align: center;
+        }
+        nav ul li a {
+          display: block;
+          padding: 10px;
+          font-size: 20px !important; /* 메뉴바의 글씨 크기 조정 */
+          text-decoration: none;
+          color: white;
+        }
+        img {
+          max-width: 50%;
+        }
+        nav ul {
+          max-height: none;
+          overflow: visible;
+        }
+        nav ul li a[href="#"] {
+          display: none;
+        }
+        nav ul li {
+          float: none;
+        }
+        #content {
+          margin-top: 50px;
+          max-width: 100%;
+          padding: 0 10px;
+          text-align: left;
+        }
+        .sub-menu {
+          position: static !important;
+          z-index: auto !important;
+        }
+        .video-container {
+          width: 100% !important;
+        }
+        .video-container iframe {
+          width: 100% !important;
+          height: 56.25vw !important;
+        }
+      }
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      .no-margin {
+        margin: 0;
+      }
+      .preformatted-bold {
+        font-weight: bold;
+        white-space: pre;
+      }
+      .h2 {
+        font-size: 32px;
+        font-weight: bold;
+      }
+      .subtitle {
+        font-size: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" onclick="showContent('GameIntro', this)"
+            >OpenLetter To Johanna Faries</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showContent('Download', this)">Download</a>
+        </li>
+        <li>
+          <a href="#" onclick="activateFirstSubMenu(this)">System</a>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" onclick="showContent('Movement', this)">Movement</a>
+            </li>
+            <li>
+              <a href="#" onclick="showContent('Offense', this)">Offense</a>
+            </li>
+            <li>
+              <a href="#" onclick="showContent('Defence', this)">Defence</a>
+            </li>
+            <li><a href="#" onclick="showContent('Tip', this)">Tip</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" onclick="activateFirstSubMenu(this)">History</a>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" onclick="showContent('History2015to2019', this)"
+                >2015.04-2019.11</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showContent('History2019to2021', this)"
+                >2019.11-2021.02</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showContent('History2021to202306', this)"
+                >2021.02-2023.06</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showContent('History202306to202311', this)"
+                >2023.06-2023.11</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showContent('History2023to2024', this)"
+                >2023.11-2024.06</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div id="content">
+      <!-- Dynamic content will be displayed here -->
+    </div>
+    <script>
+      function activateFirstSubMenu(element) {
+        var firstSubMenu = element.nextElementSibling.querySelector("a");
+        if (firstSubMenu) {
+          firstSubMenu.click();
+        }
+      }
+
+      function showContent(type, element) {
+        var content = document.getElementById("content");
+        content.innerHTML = "";
+
+        var text = document.createElement("p");
+
+        // Remove active class from all tabs
+        var tabs = document.querySelectorAll("nav ul li a");
+        tabs.forEach(function (tab) {
+          tab.classList.remove("active");
+        });
+
+        // Add active class to the clicked tab
+        element.classList.add("active");
+
+        // Add active class to the parent tab if it exists
+        var parentTab = element.closest(".sub-menu")?.previousElementSibling;
+        if (parentTab) {
+          parentTab.classList.add("active");
+        }
+
+        switch (type) {
+          case "GameIntro":
+            text.innerHTML = `<br><br><br><br><br>
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZSUGrnAX9OhXyRc7uKJ97xxw0sELjDJYouBRVmV8FrA6Q_rsxh3N9jDUA-awjMhWqqpW9Z0t0ewy_ORD5mBpOhSSFY1DyU2xI9DvecLlxC29b992WYkm29RIPjegqVelArtDAMMFB8wJLg7CaUnPaUoQ5xEJSMwmkLahc0-Uf7YzZioFnlQoQiNpKwgdd/s16000/OpenLetterToJF.png" style="display: block; margin: auto;">
+
+            
+            <br><h1>Open Letter to Blizzard President Johanna Faries</h1>
+
+July 2, 2024
+
+Dear Blizzard President Ms. Faries,
+
+I hope this message finds you well, and I sincerely congratulate you on your appointment as President of Blizzard Entertainment this year.
+
+I understand that transitioning from managing Call of Duty to serving as President of Blizzard Entertainment brings with it a broader range of considerations.
+
+Since April 2015, I have been dedicated to creating an isometric-view fighting game combat system and AI using the Warcraft III map editor (World Editor). Based on this experience, I would like to propose a new project for Blizzard
+<h5>Warcraft IP Isometric-View Fighting Game (Fighters of Warcraft)</h5>
+
+I believe this concept could bring a fresh and engaging experience, appealing to both new generations and Warcraft fans.
+
+
+Reforbli
+reforbli@gmail.com
+
+
+Download Prototype Game: <a href="#" onclick="showContent('Download', this)">[Prototype Game]</a>
+
+
+
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg24nylL4rA3troaHg_WhV_WUQrmAMUYux8zvp9KtZQyDHzv8Uom3BstFoXOunTg1AMs_Z5KOmT_6Y2jeT1VW_YhEFtsW-Tedb2PdXDg53nkalWgt8w50LIxSc4FdbUmZobTHBxXYJCiZ78oH1i1GRpj7tRfOAB85JM0ixt2FN5gALCDjMgs6WWJpFc_hJD/w640-h360/BestArthas150%25.gif" style="display: block; margin: auto;">
+
+
+
+
+
+<div style="border-top: 1px solid black;">
+  </div>
+<h2>Table of Contents</h2>
+
+<h2>1. Fighters of Warcraft Project Overview</h2>
+      <h5>1.1 Unique Combat System
+      1.2 Unique Minions
+      1.3 Unique Reward System
+      1.4 Unique Minion Spawning Rules
+      1.5 Unique Minion Time Attack
+      1.6 Scalability
+      1.7 Target Audience</h5>
+        
+<h2>2. Graphic Style</h2>
+      <h5>2.1 Cartoon Rendering Style</h5>
+              2.1.1 Appeal to New Generations
+              2.1.2 Appeal to Warcraft Fans    
+      <h5>2.2 The "March of the Lich King" cinematic cartoon trailer style VS a purely comic-like style</h5>
+
+<h2>3. Development Plan</h2>
+      <h5>3.1 Cost and Time Savings in Art and Sound</h5>
+      <h5>3.2 Game Engine: Unreal Engine 5</h5>
+            3.2.1 Conflict Prevention and Talent Pool Expansion
+            3.2.2 Reduced Development Time
+      <h5>3.3 Plan for Recruiting Team Members
+      3.4 Objectives for the Art Team
+      3.5 Objectives for the Gameplay Implementation Team</h5>
+
+<h2>4. BM (Business Model)</h2>
+      <h5>4.1 Background of Character BM Concept for "Fighters of Warcraft"
+      4.2 Basic Characters BM
+      4.3 DLC Characters BM
+      4.4 Characteristics of games that lower barriers to character purchases</h5>
+            4.4.1 Low Fatigue When Learning New Characters
+            4.4.2 Monetizing memories from Warcraft IP
+            4.4.3 Short Gameplay Duration
+      <h5>4.5 Cosmetic Products BM</h5>
+      <h5>4.6 PVE Content
+      4.7 Revenue Potential</h5>
+
+<h2>5. Market Analysis</h2>
+      <h5>5.1 Dota-Like (MOBA) vs Fighters of Warcraft</h5>
+            5.1.1 Quick to Learn and Enjoy through its Tutorial            
+            5.1.2 Various Team Composition Option
+            5.1.3 Shorter Playtime
+            5.1.4 Easier to Show Off to Others
+            5.1.5 A combat system that makes super plays more likely to occur and appear in more diverse forms
+      <h5>5.2 Current and Future Game Trends & Potential for First-Mover Advantage in Market</h5>
+            5.2.1 The impact of smartphone mobile games, Netflix, YouTube, TikTok, and YouTube Shorts
+            5.2.2 The Impact of Aging on Gaming Preferences
+            5.2.3 Future Trend
+            5.2.4 Potential for First-Mover Advantage in Market
+      <h5>5.3 Checklist Related to Game Features that Reflect Teen Preferences</h5>
+
+<h2>6. Cover Letter</h2>
+
+
+
+                                                                            <h1>Appendices</h2>
+
+
+<h2>Appendix A: Warcraft III Reforged</h2>
+      <h5>A.1 Warcraft III Reforged Failure</h5>
+      <h5>A.2 Why Does Blizzard Face Challenges in Pursuing the Warcraft III Reforged FIX Project?</h5>
+      <h5>A.3 Revamped Warcraft III Reforged FIX Project with "Fighters of Warcraft"</h5>
+
+<h2>Appendix B: Why Did the Game Design of Heroes of the Storm Struggle to Gain Popularity among WoW Players?</h2>
+      <h5>B.1 Combat Design</h5>
+            B.1.1 The number of skills of the actual game character should be much smaller than the number of skills of the original 
+                      character
+            B.1.2 The influence of control on achieving a sense of accomplishment in combat is low
+      <h5>B.2 Ambiguous Casualness</h5>
+            B.2.1 Match Duration
+            B.2.2 High Strategic Depth
+
+
+<div style="border-top: 1px solid black;">
+  </div>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGLrNrar5foOzB6V2CSbzMSHUHAu2pHNipxT4FoqqRhv2ywNRjGjTtYwY63-P7NuPFvRFdqEdcSzjSocjnO0AJtihqEX5NzVJdekviAWoZnlq9kwoLH7irh3Lp8JgrakCb-eSr0nNWCfbDYt3N5lXAEpuVrk0DDz5ahVxKMtvoOC6E4_zulcXhpXd_PAv3/w640-h360/Muradin%20Guard%20GOOD1.gif" style="display: block; margin: auto;">
+
+  
+
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpH1asB9p_fGMu-PxLvlRYt1494SdGJq9BU0T07cDyuK2NnmDLmD3lWySoIGUEldoyPPons1J4GZgv-Fg2tipxzXnygyBObVCuO_q4BwiShBRMoVt3TYVsZ8n995t-0vuWSfks4gWULQ2Iw1Kp7Cz5ih8ROTkNu_bqhT_bEFAB-TFlJD2atQBqEdxMjByw/w640-h360/%EB%AC%B4%EB%9D%BC%EB%94%98AD120.gif" style="display: block; margin: auto;">
+
+
+
+
+<h2>1. Fighters of Warcraft Project Overview</h2>
+
+"Fighters of Warcraft" is an isometric-view team fighting game for PC that includes iconic Warcraft characters such as Muradin, Arthas, Jaina, Kel'Thuzad, Sylvanas, Thrall, Tyrande, Maiev, and Illidan as playable characters. 
+
+This game introduces an innovative combat system unlike any seen in isometric games, along with a distinctive minion system that sets it apart from Dota-like games, providing new and exciting gameplay. It offers high accessibility due to its free-to-play model and short play sessions and a game design that allows quick learning and enjoyment through tutorials. Additionally, it features deep combat design, and team elements with friends.
+
+
+
+<h4>1.1 Unique Combat System</h4>
+It includes over 10 cooldown-free skills and features such as guard, guard cancel dodge, wake-up dodge, rush, and rush attack. The movement system allows characters to move automatically in the direction of the mouse.
+
+
+
+<h4>1.2 Unique Minions</h4>
+<br><br><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj539CEVqBQVOyoLiUus8VHgT6UbaT9awynsrXU8CfXdsPc2gCSLapz_Y-TzfaKVrrQvd3ESs1RBcUL_BhK2DsTQip9-rJCFEupSptVAKGZLBpr8RG14Hs9ZA6mVQICmie_1plNFE4R5kgHMxtKpJyxWQGfuBly8YsGftFwd0JMKspUSGtBBHx9z9a6sl_2/w640-h360/MinionDash.gif" style="display: block; margin: auto; width: 450px; height: 230px;">
+
+
+
+
+There are more than ten different types of minions, each with unique personalities and skills. Imagine minions that possess the ability to rapidly approach adversaries, the ability to heal their team's heroes, the ability to self-destruct upon contact, the ability to blink or teleport short distances, and the ability to wield a lightning beam, among other abilities. (However, only simple minions will appear in this prototype game.) 
+
+The minion AI operates based on a probabilistic model, displaying behaviors beyond simple attack commands or skill usage. The real-time actions of the minions are determined by multiple parameters.
+
+Minions with mid or high-level intelligence have parameters that change with each game session, ensuring repeated encounters with the same type of minion feel fresh.
+
+High-level intelligence minions typically have more than 30 parameters and can autonomously adjust their parameters to take more advantageous actions based on the observed situation.
+
+The minions of each team do not fight each other.
+
+
+
+<h4>1.3 Unique Reward System</h4>
+Rewards for killing minions are distributed proportionally based on the amount of damage each hero has dealt, rather than being given to the player who lands the final blow. Instead of traditional gold or experience points, killing minions replenishes mana.
+
+
+
+<h4>1.4 Unique Minion Spawning Rules</h4>
+The combination and quantity of minions that spawn are determined randomly, creating a new PVE environment each round. Instead of complete randomness, the combinations and quantities of minions are predefined by the development team as “Minion Blocks” to prevent player fatigue. 
+
+At the start of the game, four out of these predefined minion blocks are randomly selected, and the spawn rules for each round are created using these selected blocks and certain probabilities. These features make minion interactions in the game complex and engaging, adding strategic depth to the overall gameplay experience.
+
+
+
+<h4>1.5 Unique Minion Time Attack</h4> 
+When a team first eliminates all minions of the opposing team, a 'Time Attack' begins. During this event, if the opposing team fails to eliminate this team's minions within a set time, the heroes of this team receive a clear bonus reward.
+
+
+<h4>1.6 Scalability</h4>
+Although it's a fighting game, its isometric view allows for expansion into n vs. n team combat and various other modes, offering high scalability and broader appeal.
+
+
+
+<h4>1.7 Target Audience</h4>
+This game targets all age groups.
+
+<div style="border: 1px solid black;"><h5>(1) For the new generation, which is less familiar with the Warcraft IP</h5>
+the combination of high accessibility(F2P, short play sessions, a game design that allows quick learning and enjoyment through tutorials) , 
+an appealing combat system 
+can attract them.
+</div>
+<div style="border: 1px solid black;"><h5>(2) For the Blizzard generation (generally those in their late 20s and older), who are more familiar with the Warcraft IP</h5>
+the combination of high accessibility(F2P, short play sessions, a game design that allows quick learning and enjoyment through tutorials) , 
+an appealing combat system, and <em>the concept of enjoying a team fighting game with iconic <h5>Warcraft</h5> heroes</em> 
+can attract them.
+</div>
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXhvQP3d8B5rfXyrY2QL0xT38_nCDls6xnDqtYjmRBGKI1oH9o1bTev-a0tTrTdDhETB_ZVgFfaJYusDjk7s4XUaxN3aHgZmC8ObHFeCiU6NIW2s8ugPaNUvO9M0Cf8Zrp1l3D6vSHPEyHkeAIj9KBDIeCwU9Q4IItuL5sjFEOnKMVgZ62127wDWKtv5-E/w640-h360/ArthasEWvsD130.gif" style="display: block; margin: auto;">
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKtZyJTgozvwSxJREk_DIkrTbweBmwwKE2H2IssnN-8yK_6Oc0fPHhI-kolPasikbpCxLV_9gzNDtS3AFWrt1gteIY-RZnVhMUilUwlYsjcZlLYISwLVXvsgGU3q55JaFkcSJD7Ji_Wt50wUSBOkMu8EdMaxa54eOyfGCihceoChNlVspga5g07uUueyFk/w640-h360/%EB%AC%B4%EB%9D%BC%EB%94%98F%ED%8C%A8%EB%A7%81.gif" style="display: block; margin: auto;">
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilc0PBvx5EA0HdxwCrCHzuSG7bl6rr-6wOvxtCzbvaHluYIT8hn5nCMb8S_RgjiJ2jh6VE9uyLV4n11A88-BAIr5qWCCkahZXwOoF_T1TblT8jijVN4yMjZ-xqHDEII0i7kLSHr8MDNYj5Dw4juPIgfBCzZbGI2d0sDOIhiFokLTqTW8XicssXMYV8A_sB/w640-h360/muradinarthascombo.gif" style="display: block; margin: auto;">
+
+
+
+
+<h2>2. Graphic Style</h2>
+
+<h4>2.1 Cartoon Rendering Style</h4>
+Many people have enjoyed cartoons since childhood. Even today’s teenagers still enjoy watching cartoons. Therefore, the cartoon rendering style is a graphic style that can appeal to people of various ages and backgrounds.
+
+<h5>2.1.1 Appeal to New Generations</h5><div style="border: 1px solid black;">The cartoon visual style is familiar to new generations, who have been extensively exposed to cartoons and animations, making the game more approachable and enhancing immersion for them.
+</div>
+<h5>2.1.2 Appeal to Warcraft Fans</h5><div style="border: 1px solid black;">Even though they may recognize character models from Warcraft III: Reforged and Heroes of the Storm, the modern cartoon-rendered graphics will offer a novel experience.
+</div>
+
+
+<h4>2.2 The "March of the Lich King" cinematic cartoon trailer style VS a purely comic-like style</h4>
+While both styles appeal to teenagers, World of Warcraft (WoW) and Warcraft fans might find the purely comic-like style, such as that in Guilty Gear, more distant from the in-game graphics of WoW or Warcraft III. In contrast, they might feel that the "March of the Lich King" cinematic cartoon trailer is closer to the game's graphics and even features more advanced visuals compared to WoW or Warcraft III.
+
+Therefore, they are likely to prefer The "March of the Lich King" cinematic cartoon trailer style over the purely comic-like style. 
+This cinematic style serves as a compromise that can appeal to a broader range of age groups and preferences.
+
+<a href="https://www.youtube.com/watch?v=HVrPAhOR0kg" target="_blank">March of the Lich King Cinematic Trailer</a> VS <a href="https://www.youtube.com/watch?v=OlPa5IZod3o" target="_blank">Guilty Gear Example/</a>
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuCsnsKks52hX5ECFiJqpIWmzPVaLcdNl_iSnUaDJV9mt6frBVYvf2M_v7iCxTL2PVcPUR8_AQNdKv56dqLxj6eesTqrlBxq1QqgMMrucChGP1c0gOqueIunbiUHZp3aOI4p00cnMIJfeKZ6AlpN6iQdKwB37G2b4gy3PT9LBIo3jsa5Q3xfqyC40B2O90/w640-h360/ArthasVSArtahsCapslock.gif" style="display: block; margin: auto;">
+<br><br><br>
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRwKtjlNjq2q1spkrxpqiDOBOGCcGIZMLaf0-RVzySOwWYpGb2K7QWVMwTGL9pcue2zgj-E07OugbCqDMOVXs9ZbsVsc6nmPjDuo5wni3lz-YpnjCWM0vqAlpErtsEjTR-rpHGHe3QUc8bxkdANKCC16R-xapcIzc_7c9MPhPMoY9gCYf9LFD1aO5njJwj/w640-h360/MuradinAirCombo1.gif" style="display: block; margin: auto;">
+<br><br>
+
+
+
+
+
+<h2>3. Development Plan</h2>
+
+I have extensive experience developing games using Warcraft's World Editor VJASS for a long time, but I have no experience in collaborative game development. All the game development I have done so far has been solely by myself using this tool. 
+
+Furthermore, I do not have professional knowledge of Unreal Engine; I have only acquired some background knowledge to write this open letter. Therefore, writing this development plan feels like trying to solve complex calculus problems with basic arithmetic skills.
+
+However, I understand the importance of providing a detailed plan to show my commitment and understanding of the project's scope. Based on my development experience and imagination, I have crafted this plan. Given my limitations, it will inevitably have many flaws.
+
+If a Blizzard director takes on this project, they should use this as a preliminary draft and refine it accordingly.
+
+<h5>The time from the start of development to the user beta test</h5> 
+at least <h5>1.5 years</h5> and at most <h5>2 years.</h5>
+
+
+
+<h4>3.1 Cost and Time Savings in Art and Sound</h4>
+Assets from Warcraft Reforged and Heroes of the Storm already include high-quality 3D Warcraft models, allowing for substantial reuse.
+
+Even though the model animations for Hots were clearly created for a Dota-like game, many of them can be reused effectively to create a Fighting game.
+
+Let's take the Heroes of the Storm Muradin assets as an example. 
+
+For Heroes of the Storm Muradin, despite only needing 7 combat-related animations for skills (QWE R1 R2), basic attacks (A), and movement, Heroes of the Storm animators created many more animations. 
+
+Thanks to these extensive animations, I didn't need to add any additional animations to implement the prototype Muradin skills. Moreover, Heroes of the Storm animators have created significantly more animations for other Heroes of the Storm characters as well, not just Muradin. 
+
+For the prototype, the only additional character animations added were the falling animation and the hit animation.
+
+For sound, utilizing all Blizzard game sound assets (Warcraft, Starcraft, Diablo, Overwatch, Heroes of the Storm), along with royalty-free sounds from Sound Effect Lab, can also lead to substantial cost reductions.
+
+
+
+<h4>3.2 Game Engine: Unreal Engine 5</h4>
+<h5>3.2.1 Conflict Prevention and Talent Pool Expansion</h5>
+<div style="border: 1px solid black;">If Blizzard chooses to use its proprietary engine, it might require reallocating experienced developers from other ongoing projects. As a result, reallocating team members to secure enough personnel for a new project could lead to dissatisfaction among the World of Warcraft team, Warcraft Rumble team, Diablo IV team, Overwatch 2 team, and the AAA open-world project team. 
+
+Such dissatisfaction could cause new conflicts among development teams, negatively impacting the entire company. Therefore, securing enough personnel to proceed with the project using a proprietary engine is practically challenging.
+
+However, the situation could be different if Unreal Engine is used. Since Unreal Engine is widely used, it is easier to find experienced developers, which can help avoid internal conflicts and expand the talent pool.
+</div>
+<h5>3.2.2 Reduced Development Time</h5>
+<div style="border: 1px solid black;">To introduce modern cartoon rendering in one of Blizzard's proprietary engines, significant time and effort may be necessary to modify the engine to support this feature. Additionally, if the specific engine in question is outdated and does not support multi-core processing and GPU acceleration, further modifications would be required to implement these technologies, which would demand even more time and effort.
+
+On the other hand, Unreal Engine already supports various rendering techniques and inherently supports multi-core processing and GPU acceleration, significantly reducing these processes.
+</div>
+
+
+<h4>3.3 Plan for Recruiting Team Members</h4>
+If there is a group within Blizzard not assigned to specific projects, volunteers will be sought from within that group to meet staffing needs. If such a group does not exist or is too small with insufficient volunteers, additional personnel will be hired externally.
+
+<h4>Total Team Members: 16 (Art 4, Gameplay Implementation 12)</h4>
+
+<h5>(1)Art Team (4 members)</h5>
+<div style="border: 1px solid black;">Art Director (1)
+Technical Artist (1)
+Texture Artist (1)
+Graphic Programmer (1)</div>
+
+<h5>(2)Gameplay Implementation Team (12 members)</h5>
+<div style="border: 1px solid black;">Client Programming
+Server Programming
+Unreal Engine 5 (C++, Blueprint)</div>
+
+<h5>Development Timeline: 1.5 to 2 years until Beta Testing</h5> 
+
+
+
+<h4>3.4 Objectives for the Art Team</h4>
+The textures of the Heroes of the Storm and Warcraft III: Reforged models will be remastered to fit the cartoon rendering style. The rendering settings in Unreal Engine will be adjusted so that the Heroes of the Storm and Warcraft III: Reforged models appear in a modern cartoon rendering style such as The "March of the Lich King" cinematic cartoon trailer style.
+
+
+<h4>3.5 Objectives for the Gameplay Implementation Team</h4>
+<h5>Phase 1: Convert the VJASS-based prototype (Muradin vs. Arthas) to Unreal Engine 5.</h5>
+<div style="border: 1px solid black;">To help the gameplay implementation team understand the process, I will provide step-by-step guides starting with a simple combat system and gradually introducing more complex mechanics. 
+This includes 
+Level 1 : the open-source and corresponding design documents of open-source.
+Level 2 : the open-source and corresponding design documents of open-source.
+Level 3 : the open-source and corresponding design documents of open-source.
+Level 4 : the open-source and corresponding design documents of open-source.
+.
+.
+.
+
+While the VJASS code will serve as a reference, it will not be solely relied upon. This is because VJASS has limitations in certain implementations that can be more efficiently handled by Unreal Engine 5.
+
+For example, Unreal Engine allows triggering events at specific frames of character animations, which is not feasible in VJASS.
+Thus, even when implementing similar functionalities, there may be more efficient methods available in Unreal Engine 5.
+</div>
+<h5>Phase 2: Character Skills & Balancing</h5>
+<h5>(1) 3 Weeks of Independent Activity</h5>
+<div style="border: 1px solid black;">A gameplay implementation team of 12 members will be divided into teams of 4 (Team 1, Team 2, Team 3, and Team 4). They will use models and animations from "Heroes of the Storm" and "Warcraft III: Reforged" to implement character skills. Each team selects a character to be responsible for and works on creating the skills for their assigned character. 
+  
+This involves creating the skills, testing them with implemented AI, and balancing them simultaneously. ("Fighters of Warcraft" has a total gameplay time of less than 3 minutes, which allows for efficient testing and balancing, as the results can be felt immediately within 3 minutes.)
+
+Since each character has unique characteristics, the difficulty of planning, implementation, and balancing will vary. Thus, while Team 1 may complete the skills and balancing for their character, Team 2 might only be 40% complete. In such cases, Team 1 can choose to create skills for another character, add additional skills to existing characters, develop a new prototype for an improved combat system, or support other teams with their character creation during the remaining time.
+</div>
+
+<h5>(2) 1 Week of Integrated Activity</h5>
+<div style="border: 1px solid black;">For the following week, all four teams will integrate and test the characters they have created. During this process, teams will focus on giving and receiving official feedback on the skills and balancing they have worked on. 
+
+Based on this feedback, each team will work on refining their characters for the remaining week. 
+
+If a team has created a prototype for a new combat system, official feedback will be given during the next cycle of integrated activities. This allows teams ample time to consider whether to adopt the new system, which may involve significant changes.
+</div>
+<div style="border-top: 1px solid black;"></div>
+
+<h5>Reusing Existing Models and Animations</h5>
+Since models and animations from "Heroes of the Storm" and "Warcraft III: Reforged" are being reused, teams can begin implementing skills right away. However, if existing animations do not meet the requirements for certain skills, collaboration with Blizzard animators will be necessary.
+
+
+<h5>Character Development Timeline</h5>
+This method allows for the creation of 4 characters per month, leading to the completion of 24 Basic characters in 6 months. As implementation code accumulates during the creation of character skills, the likelihood increases that new character skills can be developed by simply modifying and reusing existing code without the need for separate research. 
+
+Consequently, the speed of character creation will increase. Therefore, the development time might be changed from 'three weeks & one week' to 'two weeks & one week' in the later stages.
+
+
+<h5>Beta Testing</h5>
+Conduct user tests to gather feedback and measure success.
+
+
+
+ 
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdP3LTlQUmqQD_l-MP3PixhmGZ2UMEofP7_XJdTQFg8tpYxdLwn2lOCMV4Tg3XYcMZXhhVvlrnDfzqjvMO_rCwweA18p7deq_26ACs7eFsmADoDvy631u8gSESbh-RQhYCXIeJhNjoOKIlG0IN0yHMOJP3drwZkRlMQkFab57OtCMSuyy_GJ9N3TFR6hrA/w640-h360/MuradinASGOOD1150.gif" style="display: block; margin: auto;">
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhlkI_nv65CMYp7JN7emLCJJ6qF4jHBTt-GJDsyzSRWVljZ5wzFgIbTDNRutiFeMH-ujOU-1gE3716vXQrx6vbS1PqRNSEq26JPSmWoYP3PIHQewnPRwJ5o3pdlqnCS4eGC9o0EzfxlfhsZZn6rSimyJ6QfKeNRq1_rgg8c4EHxyqC65zKIpaEommG2bw1/w640-h360/Arthas%20AD%20carry%20150plus.gif" style="display: block; margin: auto;">
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga1rDR4M2UXBCqL5PpU5_sclPtrgysa37R9E77Pg0Gf5PnKEwoqcu2idkF_dUH2OPmtBvsZOINZ7QZK_2-G2qgcott7OJSYpNSYSqxC8Co-ynWNbH5mVB-U3equS7GNlopab2IGJ7R5p-BNB0mwXDbq6waOjJMX3Le9UoELsdm_oFKEc1sprxLVqdGfYdb/w640-h360/muradinmm.gif" style="display: block; margin: auto;">
+
+
+<h2>4. BM (Business Model)</h2>
+
+<h4>4.1 Background of Character BM Concept for "Fighters of Warcraft"</h4>
+The concept for the character BM of Fighters of Warcraft originated from recognizing issues with the character BM of Heroes of the Storm (HotS)
+
+HotS is a game where players choose characters from Blizzard's games and enjoy team battles. When new users first encounter HotS, unlike other Dota-like(MOBA) games, they think of their favorite characters first. For example, they might start the game thinking of characters like Raynor, Kerrigan, Tyrael, Arthas, Nova, Diablo, and so on. However, when they actually start playing the game, if their desired character is not included in the free rotation, they won't be able to play it. This is understandable, as Blizzard is not a charity organization.
+
+The problem is that Blizzard priced most of the characters in HotS $4-$10, similar to other Dota-like(MOBA) games, particularly League of Legends. I think this pricing strategy did not fully leverage HotS's unique aspects.
+
+The characters in HotS evoke anticipation and curiosity by stimulating users' memories, making them look forward to how these characters will be reintroduced. Although these elements alone cannot guarantee that users will purchase the characters, they can at least lower the barrier to considering a purchase.
+
+While memories of Diablo I, II, and III do not guarantee sales of Diablo IV, they generate a unique sense of curiosity about Diablo IV. These factors, combined with the high quality of Diablo IV, have helped encourage many fans to purchase Diablo IV without hesitation. This is the result of the successful harmony between the developers' creative efforts and the fans' expectations.
+Similarly, the characters in Heroes of the Storm (HotS) have potential. "Monetizing memories" is a unique advantage that sets HotS apart from other Dota-like games.
+
+However, the character business model of HotS and the paid game model of an AAA game such as Diablo IV, which is expected to be expensive, are fundamentally different.
+
+Blizzard needed to create a character business model (BM) that effectively utilized these differences. Despite this, HotS adopted a character BM similar to that of League of Legends.
+
+the Hots character BM model prompts the following inner conflicts:
+<div style="border: 1px solid black;">"If I make a paid purchase, I can immediately purchase and play as my desired Blizzard character!!
+(This is an attractive business model unique to HotS, which other Dota-like games cannot offer.) "
+vs
+"I could purchase an indie game for the price of just a couple of these characters. This is too expensive."
+"I have over 10 favorite characters. If I purchase them all, I’d be spending enough to purchase several AAA games. This is too expensive."
+"Can't I purchase it with in-game currency? Wow, I can purchase it with in-game currency. I'll save up in-game currency to purchase it."
+</div>
+So, the Hots character BM makes it difficult for this advantage to be effective.
+
+Later, Blizzard released a bundle where 20 heroes could be purchased for 100 Hots Gems( approximately $1) as a way to attract users. 
+However, this led to some people who had bought characters through microtransactions thinking
+<div style="border: 1px solid black;">"I bought this character for $5, and now it's being sold for $1/20? I feel undervalued."</div>
+Additionally, offering 20 heroes at a significantly lower price of approximately $1 (essentially free if users logged in during the Heroes of The Storm 2.0 launch event period to receive 100 gems) greatly alleviated users' sense of deficiency about characters.
+so the necessity for users to spend money to purchase characters was greatly reduced.
+
+Moreover, it reinforced the perception among users that purchasing a hero for the original price of $4-$10 is even more of a waste.
+
+If from the beginning, a set of 20 specific heroes is sold for $1, while the remaining heroes are sold individually for $4 to $10 each, users are likely to see the set of 20 heroes and the remaining heroes as distinctly different products and recognize the price difference from the start.
+
+On the other hand, if all heroes were initially sold for $4 to $10 each and then suddenly a set of 20 specific heroes starts being sold for $1, users will notice that the remaining heroes are still priced at $4 to $10 each, perceiving these prices as more expensive.
+this is because users become accustomed to the new, cheaper price, making the previous prices seem relatively more expensive.
+Therefore, they would be more inclined to save up in-game currency to purchase heroes.
+
+
+The issues with the Character BM of Heroes of the Storm led me to consider the following ideas for the Character BM
+<div style="border: 1px solid black;">Would it really be beneficial for the game company to sell characters at such a high price that purchasing just 2-3 characters costs as much as purchasing a decent indie game?
+
+If this strategy significantly reinforces the perception among many users that spending money on character purchases is wasteful and that it's more reasonable to purchase characters with in-game currency, wouldn't it be counterproductive?
+
+Despite the high price where purchasing just 2-3 characters costs as much as purchasing a decent indie game, there are still a few people who spend money on purchasing dozens of characters. What percentage of the total users do such people constitute?
+
+If that small group of users leaves the game, the revenue from creating new characters will be significantly impacted. This is because most people will either purchase characters with in-game currency or give up on purchasing them altogether. Wouldn't it be better to aim for a Character BM strategy that gains money from as many users as possible, rather than extracting large sums from a few?
+
+What kind of Character BM would minimize the user's hesitation and contemplation when spending money on character purchases, enabling them to make impulsive purchasing decisions quickly?
+
+What kind of Character BM would make users feel increasingly rewarded and valued the more characters they purchase?
+</div>
+
+<h4>4.2 Basic Characters BM</h4>
+<div style="border: 1px solid black;"><h5>Basic Characters (24) </h5>
+Uther, Jaina, Muradin, Kael'thas
+Samuro, Thrall, Cairne Bloodhoof, Rokhan
+Illidan, Maiev, Tyrande, Malfurion
+Arthas, Kel'Thuzad, Mal'Ganis, Anub'arak
+Chen, Sylvanas, Rexxar, Goblin Alchemist, Lady Vashj, Mannoroth, Gazlowe, Ragnaros
+</div>
+The Basic Characters are heroes available in Warcraft III, so any Warcraft III fan will be familiar with them.
+
+Muradin, Thrall, Tyrande, and Arthas are four characters that all players own for free. and every Tuesday, 3 Basic characters are provided on a free rotation. 
+This means that all users can effectively play with 7 basic characters for free (4 permanent + 3 on rotation). The purpose is to provide enough options for them to determine if the game suits their preferences without spending any money.
+
+Each Basic character can be individually purchased for a low price and can only be bought with real money.
+(in-game currency can be used for cosmetic items such as character skins, victory cutscenes, and skill effect changes.)
+
+
+The curiosity evoked by memories of Warcraft and World of Warcraft
++the exclusivity of real money purchases
++the small number of free rotation heroes
++the low price
+encourages users to spend money without hesitation to get their desired character.
+
+<h5>Phase 1: Target Users with Fewer than 9 Basic Characters</h5>
+
+<h5>Price per character</h5>
+<div style="border: 1px solid black;">$3
+</div>
+<h5>Popup Message</h5>
+<div style="border: 1px solid black;">"if you purchases 3 Basic characters, you can receive 2 additional Basic character purchase vouchers, which you can use to get 2 more Basic characters for free."
+</div>
+This popup  appears when a user clicks the shop.
+<h6>First Time: 100% chance
+Subsequent Times: 15% chance
+(While having this popup appear 100% of the time would be ideal, it could lead to user fatigue and backfire. Constantly showing the same advertisement with every click can become tiresome and annoying, forcing users to hit the close button repeatedly. Therefore, a probability factor is introduced, showing the popup intermittently after the first encounter. )</h6>
+
+When a user purchases 3 Basic characters, they get 2 additional Basic characters, effectively purchasing a total of 5 characters for $9.
+
+$9 is a price just shy of double digits. While perceptions of expensive and cheap vary among users, the fact that the price is in the single digits creates a distinctly lower psychological barrier compared to double-digit prices.
+
+In many other games, $9 might only purchase one or two characters, but in this game, the price per character is just $3, which users will perceive as cheap. Moreover, given that $9 purchases 5 characters, users will think the price is even more of a bargain.
+
+Perceiving the price as cheap means that the psychological accessibility to the product is high.
+
+This phase aims to encourage initial purchases by offering a low-cost entry point with attractive rewards such as two additional Basic character purchase vouchers.
+
+(Including the 4 free characters provided initially, they will have a total of 9 Basic characters.)
+
+
+<div style="border-top: 1px solid black;">
+  </dvi>
+
+<h5>Phase 2: Target Users with 9 to 13 Basic Characters</h5>
+
+<h5>Popup Message</h5>
+<div style="border: 1px solid black;">"If you purchase 3 basic characters, you can receive 2 additional basic character purchase vouchers, 2 additional vouchers for rare skins for basic character."
+</div>
+This popup appears when a user clicks the shop.
+<h6>First Time: 100% chance
+Subsequent Times: 15% chance</h6>
+
+The user currently possesses 9 characters instead of 4. This reduces the sense of character deficiency, thereby decreasing the desire to purchase more characters compared to before. To address this, a more significant reward than in previous stages is offered: 2 additional vouchers for rare skins for basic characters.
+
+This approach ensures that the more money the user spends on character purchases, the more they feel valued and rewarded.
+
+Avoid giving the impression that spending money on character purchases is wasteful. Instead, the goal is to make users feel increasingly rewarded the more they invest money in purchasing characters.
+
+Including the 4 free characters provided initially, they will have a total of 14 Basic characters.
+
+<div style="border-top: 1px solid black;">
+  </dvi>
+
+<h5>Phase 3: Target Users with 14 to 23 Basic Characters</h5>
+
+<h5>Popup Messages</h5>
+<div style="border: 1px solid black;">"You can purchase all remaining 10 BASIC characters at a 30% discounted price."  
+"If you own all 24 basic characters, you can receive 3 additional vouchers for rare skins for basic character and start each season's reward pass at level 10"
+</div>
+This popup appears when a user clicks the shop.
+<h6>First Time: 100% chance
+Subsequent Times: 15% chance</h6>
+
+The user now possesses significantly more BASIC characters compared to the previous stage. While this does not entirely eliminate their curiosity and interest in the remaining BASIC characters, it is clear that they now have many more options available to them than before. Consequently, the feeling of lacking characters is much lower than in the previous stage. To encourage the user to purchase the remaining 10 BASIC characters with a higher probability, offer the benefit of allowing them to purchase all remaining 10 BASIC characters at a 30% discounted price.
+Along with the reward of starting each season pass from level 10 and receiving 3 additional vouchers for rare skins, this encourages users to purchase all remaining 10 BASIC characters with higher probability.
+
+<h4>4.3 DLC Characters BM</h4>
+<div style="border: 1px solid black;"><h5>DLC1 Characters(5)</h5>
+Garrosh, Stitches, Varian, Yrel, Gul'dan
+<h5>DLC2 Characters(5)</h5>
+Greymane, Valeera, Anduin, Alexstrasza, Medivh
+</div>
+DLC characters are not included in the free rotation.
+
+The DLC BM is inspired by the BM used in World of Warcraft.
+
+To use DLC characters, players must purchase the DLC and then subscribe. The subscription cost remains the same regardless of whether a player owns one or more DLCs.
+
+For example
+-A subscriber who owns DLC1 can use all characters included in DLC1.
+-A subscriber who owns both DLC1 and DLC2 can use all characters included in both DLC1 and DLC2.
+
+Whether users own only DLC1 or both DLC1 and DLC2, the subscription fee remains the same. 
+
+During the subscription period, players will receive an additional 1.2x game currency.
+(in-game currency can be used for cosmetic items such as character skins, victory cutscenes, and skill effect changes.)
+
+<h5>DLC Price</h5>
+<div style="border: 1px solid black;">$5 (one-time purchase)
+Subscription Price: $2 per month
+</div>By setting these prices low, the barriers to purchasing and subscribing to DLC content are reduced.
+
+To purchase DLC, users will not be required to purchase the Basic characters. There will be no prerequisites for any DLC purchases.
+
+If a user subscribes to the paid battle pass, the DLC character subscription will be automatically included. 
+Users can still subscribe to the DLC characters alone for $2, but subscribing to the paid battle pass will eliminate the need for a separate DLC character subscription. 
+
+This approach prevents the inconvenience and backlash that could arise from double billing, enhancing the overall appeal of the paid battle pass. 
+However, subscribing to the paid battle pass does not allow users who have not purchased the DLC to use the characters included in that DLC. The DLC itself must be purchased separately.
+
+
+
+
+
+
+<h4>4.4 Characteristics of games that lower barriers to character purchases</h4>
+<h5>4.4.1 Low Fatigue When Learning New Characters</h5>
+<div style="border: 1px solid black;">Unlike Dota-like(MOBA), This game does not require complex item setups or skill tree configurations during gameplay. Skills do not have complex conditions such as "landing E builds a stack, which grants additional effects at y stacks"
+
+Unlike traditional fighting games that require you to memorize specific key sequences to execute combos, this game allows players to intuitively create their own combos. It does not require memorization to execute combos. While command skills do exist, they are very simple, requiring only the press of two keys with the left hand.
+
+These features make learning new characters in this game more intuitive and less time-consuming.
+
+When a new game character is introduced in a Dota-like(MOBA) or traditional fighting game, many people welcome it, but there are also many who are indifferent. 
+"Why should I go through the hassle of purchasing a new character and learning its item setup, skill tree, and conditional skill usage or combo memorization or complex skill commands when I'm already having fun and doing well with the characters I currently play?"
+
+However, the design of this game significantly reduces such situations.
+</div>
+<h5>4.4.2 Monetizing memories from Warcraft IP</h5>
+<div style="border: 1px solid black;">The characters in this game originate from the Warcraft IP. Therefore, If you have a memory of Warcraft, many characters in this game will likely feel very familiar.
+
+This familiarity naturally sparks curiosity. You might think, 'Isn't this the character I saw in Warcraft, World of Warcraft, Warcraft IP novels, or cinematics? I wonder how this character is implemented in this game and how fun it would be to play as them.'
+
+The differences here with 'Heroes of the Storm Characters BM' are the exclusive paid content, the small number of free rotation heroes, the low price, and the incremental rewards provided as the number of purchased characters reaches certain milestones. 
+
+This significantly increases the need for paid character purchases and lowers the entry barrier for paid transactions. These factors, combined with the curiosity generated by users' memories of Warcraft, can raise the likelihood of Warcraft and WoW fans making purchases without hesitation.
+ 
+<h5>Monetizing memories</h5>
+Many Diablo fans purchased Diablo IV as soon as it became available without hesitation. This was possible due to the quality of Diablo IV and the curiosity and anticipation generated by memories of previous Diablo series games.
+
+Fighters of Warcraft can leverage the same effect. However, since it is a character business model in a free-to-play game, not a paid AAA game, the approach is different.
+
+</div>
+<h5>4.4.3 Short Gameplay Duration</h5>
+<div style="border: 1px solid black;">Let's assume you have one hour to play today. If the average gameplay duration is 30 minutes, you can choose characters twice. For example, if you have 10 characters available and you choose character 1 first and character 2 second, you won't have the opportunity to enjoy characters 3 through 10 today. In contrast, if the average gameplay duration is 3 minutes, you can choose characters up to 20 times. In this case, even if you choose character 1 first and character 2 second, you will still have 18 opportunities to enjoy characters 3 through 10.
+
+Therefore, the value of the number of characters you own feels greater in games with shorter gameplay durations, increasing the desire to purchase more characters.
+</div>
+
+
+<h4>4.5 Cosmetic Products BM</h4>
+Additional revenue can be generated by selling character skins, skill effect changes, and victory cutscenes. These items are available for purchase either with real money or with game currency.
+
+
+
+<h4>4.6 PVE Content</h4>
+see Appendix A( Warcraft III Reforged ) for more details.
+
+
+
+<h4>4.7 Revenue Potential</h4>
+Warcraft III sold approximately 4 million copies, Warcraft III: The Frozen Throne sold around 2.5 million copies, and World of Warcraft has maintained a subscriber base of around 5 to 12 million since its release in 2004. Even if only one-fifth of these fans are interested in this game, Blizzard could secure significant revenue from Basic characters and DLC purchases from many users at the game's launch. And if post-launch game management is handled well, Blizzard could continue to earn a steady $2 monthly from many users solely through character BM. Additionally, creating new DLC characters and selling new DLC packs could generate further revenue. Thus, the character BM alone has the potential to yield substantial profits.
+
+Considering other business models beyond characters, even greater revenue potential can be anticipated.
+
+Furthermore, this game is not an expansion pack for a specific game but a new Blizzard F2P game. Therefore, it can appeal to users who are not interested in World of Warcraft or Warcraft with its intuitive, deep, and unique isometric combat design, short play sessions in a team fighting game, and high accessibility. This means the potential target audience for revenue is vary large.
+
+
+
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlvnjA5uA3IuKfJtNjJjRtsM78Zgt40ThymTuY0_0pYZmO7DysWeTCYDAmbmt8VD0lZuaq4ZBhS2W5XcbbLwY7uWoCjbn0jUt4e0JmROEGnfSe9wRxsQFmY_S32mT4cqBLdCAxASbg_qkDryygkkfCqpK-RX9JwmYUxS09-9d8sUDem9wp427_30ekkmDt/w640-h360/ArthasWW.gif" style="display: block; margin: auto;">
+
+
+
+
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmBArw5gWvGHM5EErHS5d8IVI5QVcTENHJKyEIkCU9JQ3-9MEVOIgG0deNNwVwXidEu8ky3xScIOYSM5OlXhjGRoRg1pH69WKFaLW8WMsS13UdOO9xSM6wta_OVlRksUGRW3I3R0w6Yjk_YfJtpvcT9n-93Sf_NJj45-ygcfuRpOKOkFsx1b3Dgu8xL1sN/w640-h360/MuradinRCounter.gif" style="display: block; margin: auto;">
+
+               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjzvXDJaT_PrxdjpD-rduWCm7ozW2xAcz2HMQqwTxWuE9Oun5MlGxCXqneW3CQbVrB160k6lsSMEyV7jExvLnALviwxjn5tLwClWRZJd-K23mOTQMqUQQ37JTggBzHa-srAAktW90SOWWoTxmq0_CZcCl9o4NZkwweJqOjSkNuQUv-HCgazu-peg_e8ayf/w640-h360/ArthasASLeftA.gif" style="display: block; margin: auto;">
+
+
+
+
+
+
+<h2>5. Market Analysis</h2>
+
+<h4>5.1 Dota-Like (MOBA) vs Fighters of Warcraft</h4>
+"Fighters of Warcraft" is a PC character battle game featuring an isometric view, minions, and team-based battles. Given its similarities with Dota-like (MOBA) games, it inevitably competes in the same genre. However, "Fighters of Warcraft" holds a competitive edge over Dota-like (MOBA) games due to the following factors.
+
+<h5>5.1.1 Quick to Learn and Enjoy through its Tutorial</h5>
+<div style="border: 1px solid black;">The controls for Dota-like (MOBA) games are very simple. Movement is done with the right mouse click, skills are mapped to QWER, and basic attacks are performed using the A key. However, to play effectively, you need to study more than just the controls.
+
+For example
+<h5>Conditional Performance Skills</h5>
+Players need to learn how to utilize skills with conditional performance. This requires reading, understanding, and memorizing complex conditions attached to these skills.
+
+<h5>In-Game Character Customization</h5>
+Players need to learn how to allocate skill points for specific characters, as well as which items to purchase and in what order.
+
+<h5>Strategic Decision-Making Skills</h5>
+Players need to learn the timing for purchasing wards, the types and usage of wards, when to push or pull lanes, freezing and unfreezing lanes, and when it is good to use Recall.
+These areas of study are complex and difficult to cover through a tutorial alone, requiring conscious 'study' through online guides and YouTube tutorials.
+
+<h5>(1) Fighters of Warcraft does not require such extensive learning.</h5>
+In contrast, Fighters of Warcraft's characters have more skills, increasing he 'key'-'skill' mapping range. Yet, this is easier to cover in tutorials compared to the detailed and intricate mechanics of Dota-like games, which demand a deeper understanding of game strategy, character roles, and decision-making.</div>
+
+<div style="border: 1px solid black;"><h5>(2) Despite having a fighting game combat system, which might lead some to believe that learning and utilizing controls would be challenging, Fighters of Warcraft is designed to be quickly learned and enjoyed through tutorials alone, thanks to several features</h5>
+
+      <h5>Simple One-Hand Commands</h5>
+      Players do not need to remember and perform complex movements with both hands. Commands use only the left hand, making them easy to 
+      remember and execute. The physical distance between the keys used for commands is small, allowing for quick and simple left-hand 
+      movements.
+
+      <h5>Combos do not require memorizing specific key sequences but are designed to be intuitively discovered by players.</h5>
+
+      <h5>Some characters might have skills involving jumps (Z-axis movement), but generally, the combat system does not include jumps, 
+      focusing only on which XY direction to use skills or guards.</h5>
+
+      <h5>Guarding involves a simple decision of whether to guard or not, without needing to decide between standing or crouching guards.</h5>
+
+      <h5>Tutorials and Mini-Games</h5>
+      The tutorial doesn't just end with teaching skills; it includes mini-games that let players solve small problems using those skills, helping them
+      learn naturally. 
+      The tutorial structure is designed to reinforce learning through 'review mini-games' after suitable intervals, preventing players from feeling 
+      overwhelmed and helping them retain previously learned content
+
+Therefore, unlike Dota-like (MOBA), Fighters of Warcraft can be quickly learned and enjoyed through its tutorials alone.</div>
+
+<h5>5.1.2 Various Team Composition Option</h5>
+<div style="border: 1px solid black;">In Dota-like (MOBA) games, the team size is fixed at 5 vs 5. This can lead to some inconveniences. For instance, if you want to play with three friends, you'll have to match the remaining two team members randomly. Due to the nature of the gameplay, you might not be able to play exclusively with your friends.
+
+Fighters of Warcraft offers various team composition options. You can form teams in different ways such as 2 vs 2, 3 vs 3, 4 vs 4, and 5 vs 5. This flexibility allows players to enjoy the game more freely. (the map size may increase with the number of players).
+</div>
+
+<h5>5.1.3 Shorter Playtime</h5>
+<div style="border: 1px solid black;">Dota-like (MOBA) games typically have an average playtime of 20 to 40 minutes. In contrast, Fighters of Warcraft has a playtime of 'under 3 minutes,' 
+
+Short playtimes offer the following advantages:
+
+<h5>(1) Gaming trends</h5>
+see 5.2.1 (The impact of smartphone mobile games, Netflix, YouTube, TikTok, and YouTube Shorts) for more details.
+
+<h5>(2) Intensity of stress</h5>
+When playing team games, there is no guarantee that you will always have good synergy with your teammates. If you end up with a teammate you don’t mesh well with, the longer the playtime, the more prolonged the stress until you part ways with that teammate.
+
+So, in Dota-like games, even if you are playing with someone for the first time, the expectations for teammates can be high because you have to spend a long time together. This significantly increases the pressure during gameplay. As a result, While these games offer great fun, the added pressure can lead some players to prefer other games. 
+
+After all, unless you are a professional gamer, games are meant to be fun, and if the frequency and intensity of stress are high, it’s a loss for the individual player.
+
+"Fighters of Warcraft" is also a team game, but it has a short playtime of less than three minutes. You might not have good synergy with your teammates, but if that happens, you can part ways quickly after one game. If you do have good synergy, you can continue playing multiple games together for a longer period.</div>
+
+<h5>5.1.4 Easier to Show Off to Others</h5>
+<div style="border: 1px solid black;">In Dota-like (MOBA) games, non-combat situations make it challenging to effectively showcase performance. For instance, it's difficult to clearly demonstrate impressive item purchases. Capturing a moment that inspires awe is tricky. Especially if the opponent is a beginner, inspiring awe in them is virtually impossible.
+
+However, combat situations are different. Combat situations are visually intense, with immediate tension and strategic choices that are clear for everyone to see and appreciate. Even beginners can easily feel the excitement and dynamics of combat.
+
+In Dota-like (MOBA) games, if combat situations occur during the early stages (when heroes are in an underdeveloped state), the focus of combat is more on 'harassing' and 'competing for growth' rather than outright combat. As a result, capturing impressive combat scenes is easier during mid-to-late game battles, whereas it is difficult in the early stages. Consequently, in Dota-like (MOBA) games, situations where it's easy to showcase impressive play only exist during a part of the total playtime.
+
+In contrast, In Fighters of Warcraft, every phase of the game is a combat situation, and intense battles start immediately, even in the early stages.
+These aspects make it much easier to capture boast-worthy moments in Fighters of Warcraft compared to Dota-like (MOBA) games. </div>
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6K4R7ik_Ys0_UFBv9I2UUXjg3vpx7TE2duJRe7jVnUH5Q734Qpi4c8wozvgpKY6r02ibXieecCkMCTYwQVU-ubSDcfVYgk6qiUZd0pap_tJQUOgTcCjOgBNM1hpXEnG8tlvEvNPusX54E0G1GjGONX_8SagEXjUxntSPEOoZ10zlUMH-alacmI18Tlsm_/w640-h360/Arthas%20AS%20carry1.gif" style="display: block; margin: auto;">
+
+
+
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh28KEZE85K6-qkV-rVLW8wHx4cnA5b4K56UvDrXqADqg-wlhRQI-9o0bBNjbqYPNh66cKdzKVqLzNU2zJVIlH7b_cfn6NyF7Zs60p4W5AccHCzwNLtRrE-rDwtx4buCyv4YUZ2dBWAgO1vphVBFj2MOOAGY-WdC4e0d6NWg3UiKaILaYci8lPoBHoyT_W1/w640-h360/Arthas%20Counter%20AS%20to%20AD%20150plus.gif" style="display: block; margin: auto;">
+
+
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig_ycKLXA6Pv6jrMh9dyPSu5_HGm9xLImCK3tTWsrp5ekV-_IaPNSDtvnJIKyVaOEKj0O-R6cWWOLiHcnMy4Kq3fnWy-DkTAoBXFOiW8X4Tx6fn6EIAHsyAcMPdsrZSDX9hf8s2O9GlOvC3hlA3Ss0Rx4ivVq7GkPCXtQ0cl153nxk0-8NU3BjXGGO6iOH/w640-h360/muradinpuchcounter.gif" style="display: block; margin: auto;">
+
+
+<h5>5.1.5 A combat system that makes super plays more likely to occur and appear in more diverse forms.</h5>
+<div style="border: 1px solid black;">-Skill Shots: Most attacks and skills in this game are designed as "skill shots." This means players need to control the exact timing and direction of their abilities, making the success of dodging and attacking heavily reliant on player skill. This system increases the potential for super plays.
+
+-Guard: Even in situations where dodging is not possible, players can protect themselves through "Guard". Using Guard at the right moment to block attacks showcases the player's skill, serving as an important element of gameplay.
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnI9_R-s8Iz2Qz740gl6QuUUcJKT6NiXhXWSw_y-qU6T1ZuXk9qnCmuUBFLoOMg-zAw33EfUD21h2MJTofzTXuEqHajFt-aS8Rmk63lKpgvuKh9Yd1urI3XJ9QaKqVygCaM7h0u0d-a9AftkFMtyvtJqW8YRnupv1NLq9KfMPA0_PMDm4woabAlFTfOgJU/w640-h360/Arthas%20Guard%20GOOD3.gif" style="display: block; margin: auto; width: 470px; height: 260px;">
+
+
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB69y9r2FKeA3dhxjPzyS0O-kvYAsY1H_agJRaon8gGamHgqqlzjFp9RPOEXuACf8-CzFnYwzpbL02jfdvOpI5B55Xs-iAl-XVCXxofoQBb__V9zPxKyb3l4atETHDha8t2KuABYdSkPdfvKo3RROEGNfB4dAe4xdFNqu0Eqn5M0XL7SCzgANzRw9WiK5x/w640-h360/%EB%AC%B4%EB%9D%BC%EB%94%982%EC%97%B0%EC%86%8D%EA%B0%80%EB%93%9C%EC%BA%94%EC%8A%AC125.gif" style="display: block; margin: auto; width: 470px; height: 260px;">
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjLwVXuoJUSsRjpMgK17x1CR94eJjxocbJrTqICs6ol7sBC4OqAZImgfvgX2zgdYN_kXvnUqsNXb3qBhzGqfXh64dpERK5zTablUCPiAW56CIBVvFCiR_GG2RO2GExIb60TT1MPTPlG-i0i1Kq0e-vqUTMc5SQZIRqrNA0vD1pKfbPkgJN4pjGO1W3Ufh3/w640-h360/%EB%B0%98%EA%B2%A9%EA%B0%80%EB%93%9C%EC%BA%94%EC%8A%AC.gif" style="display: block; margin: auto; width: 470px; height: 260px;">
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8kAWVk8-tGhZFHnM3OcLCBduhujede5wzzIEPSIIGz2yySbwhqhz3N8xQ3sRsaGkyoJ5fgmKdyfaafN3Sn-HZssZsSZ1_Eh2esTVMTzWy0oj93wxUqBagH_G5ojm72Ewx_mVlczxnQfoIZqazyHLquPtgC7GHd1UTDxskk7eKWSRiXIXPKCM_SVO_fS_/w640-h360/%EB%B0%98%EA%B2%A9%EA%B0%80%EB%93%9C%EC%BA%94%EC%8A%AC2.gif" style="display: block; margin: auto; width: 470px; height: 260px;">
+
+
+
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTRBid7yc3XDRkoZ1QY8CQJR_si74mgCJO-Xjnv2_eKCMI5_PLEix1rNk0WkH3zGguBjGXVlWcFDdecem7qlvPDRUp2d-TNNFf5-qFWey4N1Rx9XuNtbqcRrh30Ce7vgeWWkD7-3dri7_hZ_tvZHKoDZOZ49tDbYQVClybTnHTXFiqnENDeKna54fegqMn/w640-h360/Guard%EB%B0%98%EA%B2%A9130.gif" style="display: block; margin: auto; width: 470px; height: 260px;">
+
+
+
+-A Greater Number of Skills: Characters possess more than 10 skills, including keys such as CAPS LOCK, A, S, D, F, left-click, right-click, Q, W, E, R, spacebar, EW, AS, AD, and SD. As a result, the variety of super plays that can be performed is significantly increased. This means that there is a higher probability of creating more diverse and new scenes of super plays.
+
+-Friendly Fire: In this game, friendly fire is enabled, allowing players to damage their teammates. This means that even in outnumbered situations, players can achieve victory through excellent control and strategy. This possibility is much higher compared to games without friendly fire.
+
+Therefore, Fighters of Warcraft is designed to make super plays happen more easily and frequently due to control-intensive combat design, and the possibility of friendly fire. This design also allows for a higher possibility of creating diverse super play scenes. 
+This makes it easier to trend on platforms popular among teens, such as TikTok and YouTube Shorts.</div>
+
+
+
+<h4>5.2 Current and Future Game Trends<h4>
+<h5>5.2.1 The impact of smartphone mobile games, Netflix, YouTube, TikTok, and YouTube Shorts</h5>
+<div style="border: 1px solid black;">The popularization of smartphone mobile games has led people to be more exposed to and accustomed to games with short playtimes.
+
+The widespread use of Netflix and YouTube has significantly increased the quantity and quality of content available for viewing, resulting in a higher proportion of leisure time being spent watching content. Compared to the past, this has led to a tendency for the proportion of leisure time spent on gaming to decrease.
+
+With the popularization of short-form content such as TikTok and YouTube Shorts, people have become more exposed to and accustomed to short content
+
+As a result, people have increasingly come to prefer games with shorter playtimes.
+</div>
+<h5>5.2.2 The Impact of Aging on Gaming Preferences</h5>
+<div style="border: 1px solid black;">As people age, their responsibilities increase, including parenting, work, and supporting elderly parents, making it increasingly difficult to play games that require long play sessions at one time.
+
+(As evidence of this, the age distribution of WoW players in 2024 is presented below.
+18-24: 35.57% 
+25-34: 39.08% 
+<h5>35-44: 14.57% 
+45-54: 5.97% 
+55-64: 2.79% 
+65+: 2.01%</h5> 
+<a href="https://playercounter.com/world-of-warcraft/" target="_blank">https://playercounter.com/world-of-warcraft/</a>
+<h5>The percentage drops sharply from the mid-30s.</h5>)
+
+Therefore, as people age, there is a high likelihood that they will naturally prefer games with shorter playtimes or games that can be paused at any time.
+</div>
+<h5>5.2.3 Future Trend</h5>
+<div style="border: 1px solid black;">The new generation, influenced by smartphone mobile games, Netflix, YouTube, and TikTok from a young age, will not easily accept long-duration games. Additionally, as people age, there is a high likelihood that those who used to enjoy long playtimes will naturally prefer games that can be enjoyed in short sessions.
+
+The traditional fighting game genre reflects this trend well. However, the traditional fighting game
+
+-Has game designs that are difficult to learn and enjoy quickly just through tutorials.
+-Has limitations in playing with friends due to its only 1vs1 PVP structure.
+
+Because of these two conditions, the fighting game genre has not had as much influence as other genres like FPS, Dota-like, and RPG. However, Fighters of Warcraft does not have these limitations.
+</div>
+<h5>5.2.4 Potential for First-Mover Advantage in Market</h5>
+<div style="border: 1px solid black;">Furthermore, among isometric view character combat games, it is likely that you will not find a game with the following features:
+
+-A character uses more than 10 cooldown-free skills strategically during combat.
+-When using the ultimate gauge, there are multiple choices: Ultimate and Conversion.
+-There are advanced elements such as guard, guard cancel, and wake-up evasion, which are seen in traditional fighting games.
+-Characters move automatically in the direction of the mouse.
+-Minions appear with random rules and advanced AI.
+
+Therefore, Fighters of Warcraft, which meets these unique conditions, can be expected to have a first-mover advantage in the market.
+</div>
+
+
+<h4>5.3 Checklist Related to Game Features that Reflect Teen Preferences</h4>
+In PC games, teenagers prefer games such as Call of Duty, Overwatch, PUBG, Fortnite, Minecraft, Roblox, and Rocket League.
+Extracting commonalities from these games to create a checklist would result in the following points
+
+-Is the game intuitive and quick to learn?
+
+-While satisfying the first point, does it also offer enough depth to showcase personal skills and creativity?
+
+-Is the game designed to be played with the expectation of experiencing moments of surprise, such as 
+<div style="border: 1px solid black;">      "Wow, I can't believe I made this! I'm a genius!"
+      "Wow, I got multiple headshots in a row! I'm really good at this."
+      "Wow, I used my ultimate ability to kill multiple enemies at once! I'm really good at this."
+      "Wow, I can't believe I just scored that amazing aerial goal! I'm really good at this."
+</div>
+-Is the game designed for not just one-on-one play but also for enjoying with friends as a team?
+
+Fighters of Warcraft project aims to meet all of these features.
+
+
+
+
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjunF_DzDqaJiRPewfFdjS8OGEzpZPdzxkfFpclOCjrMGKigZecrdYLXFS3wHEICqZoQqakG76se7RO5acE7lWPeyEh-Ft1cdCZ4dZiK7uFe7j-dZnGaSD0Kvo95MH89vCnx9LZOqwop8QuUSJ_GPSnWEP2dUInPj9EILtv-8B3QBr3RfxKKlRuaO0V1QzR/w640-h360/muradin5combo.gif" style="display: block; margin: auto;">
+
+
+
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGjMuM5PBW7NJQw7xH4NaYE3idqYei1qSC9i8Ro4wLrKbiMg-MKnSpNfhm7nO_LGr1xq7h22QAkLBZakGxPDJ6pAG0X6SXmcL26_k-UytEl6MelbVs135l9jr9un4_Wu8TvHHemDeMNbvdERmyL8p6rFab8LS9AKBObXLJ-VbK39nBTjL1Cje8w0HxGiMr/w640-h360/MuradinEEnEE.gif" style="display: block; margin: auto;">
+
+
+
+
+
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWUJJz5JqWYUO4ncpBtcTjmAy8G9-2uCuwd-kgqjbad_uFP5ZTSjEnsC9g4T1uCmU1TGBYx3_zCwZ-HfXj-RT-t2fzkygRo_QchF1q7Uiee4NUiuEoBrJdta59gvDDd9FaPinUnIfXi0WK66PKsJedrbvFiPOBMT1nVKVd7D3vCNjnnwDZwRG7kG__Ix63/w640-h360/MuradinECapslockKillSK.gif" style="display: block; margin: auto;">
+
+
+<h2>6. Cover Letter</h2>
+
+July 2, 2024
+
+Dear Blizzard President Ms. Faries,
+
+In the early 2000s, during my elementary school years, StarCraft became very popular among my friends, which was my first encounter with Blizzard's games. Later, I also got into Diablo II and Warcraft III. Liking multiple games from the same company made the name Blizzard very special to me.
+
+Among these, the game that had the most significant impact on me was Warcraft III. For someone like me, who only knew StarCraft in the realm of RTS games, the hero-centric gameplay and 3D graphics of Warcraft III piqued my curiosity.
+
+However, what truly astonished me about this game was its editor, the World Editor. This editor was far superior to the StarCraft editor, resulting in much better and more diverse custom maps. Purchasing Warcraft III was practically like purchasing hundreds of high-quality mini-games.
+
+For today's teenagers, Roblox plays a similar role. In my teenage years, it was Warcraft III.
+
+On Christmas Day in 2004, I received Warcraft III as a gift from my father. When I first encountered the custom maps on Battle.net, which were on a whole different level compared to StarCraft's, I was utterly amazed. That feeling of astonishment is something I will never forget.
+
+Time passed.
+
+..2005 
+
+
+
+2006 
+
+
+
+2007 
+
+
+
+2008 
+
+
+
+2009...
+
+Around 2009, I began to feel dissatisfied with Warcraft III custom maps, including Dota-like games. Despite these games focusing on intensive control of a single hero, they were still based on the RTS combat system. What once seemed natural had started to feel awkward. In RTS games, where multitasking is fundamental, it makes sense for the combat system to be simplified for units. However, in games where you control only one hero, the RTS combat system seemed out of place. 
+
+Why were these games still made using the RTS combat system even when controlling only one hero? This is due to the realities faced by the creators. From the perspective of creating custom maps using an RTS game editor, using the RTS combat system was much more efficient and accessible. I began to wonder what it would be like to create a game with a fighting game combat system that allows for more detailed and dynamic character battles.
+
+Time passed.
+
+..2010 
+
+
+
+2011 
+
+
+
+2012 
+
+
+
+2013...
+
+In 2013, The gameplay video of Heroes of the Storm was revealed for the first time. After watching this video, I thought, "It would have been better if the game was built on a fighting game combat system instead of an RTS combat system."
+
+Time passed.
+
+..2014 
+
+
+
+2015..
+
+In 2015, I resolved to create the game myself instead of just thinking about it. However, creating a game with a fighting game combat system in an RTS game editor meant developing complex and new functions with the scripting language VJASS. At that time, my VJASS skills were at a beginner level, making implementation impossible. With no prior programming experience, I didn't even know how to write efficient and reasonable code. In the early stages, I focused on improving my VJASS skills by reading tutorials and exploring various open-source examples from Warcraft custom map communities.
+
+Time passed.
+
+..2016 
+
+
+
+2017..
+
+In February 2017, while creating games, I developed a new dream. 
+"Can a hobby become a profession?" 
+"If I create a successful custom map like Dota and perfectly demonstrate the value of my game design through it, can't I become a game developer at Blizzard based on that?" 
+Such a dream turned what started as a hobby into a serious endeavor.
+
+Time passed.
+
+..2018
+
+
+
+2019 
+
+
+
+2020 
+
+
+
+2021 
+
+
+
+2022 
+
+
+
+2023 
+
+
+
+2024..
+
+As time passed, I kept thinking
+
+"How much longer can I continue living centered around the World Editor?"
+"Is it feasible to create a custom map as successful as Dota through sheer effort alone? Perhaps it was an overly ambitious goal from the outset."
+
+after much consideration, In March 2024, I decided to revise my plan. The revised plan is as follows
+
+"Abandon the goal of creating a successful custom map like Dota"
+"Create a prototype and write a new project proposal."
+"Publicly release the prototype along with an open letter to Blizzard President Johanna Faries to present a new project proposal."
+"If this proposal does not align with the company's direction, or if there is a lack of interest, I will explore opportunities at other game companies or consider other productive endeavors."
+
+
+So, I'm putting this plan into action.
+
+By providing the step-by-step open-sources and detailed combat and AI system design documents, I believe Blizzard can efficiently initiate this project and potentially secure a first-mover advantage.
+
+
+<h5>Netflix vs. Blockbuster</h5>
+Netflix predicted the potential of the internet streaming market in the mid-2000s and quickly challenged the market, leading to great success. In contrast, Blockbuster failed to foresee the potential of the internet streaming market and focused on its existing business model, ultimately missing the first-mover opportunity in the internet streaming market.
+
+<h5>Riot Games vs. Blizzard</h5>
+Riot Games predicted the potential of the Dota-like market in the mid-2000s and quickly challenged the market, leading to great success. In contrast, Blizzard failed to foresee the potential of the Dota-like market and focused on its existing business model, ultimately missing the first-mover opportunity in the Dota-like market.
+
+<h5>Hearthstone (2014)</h5>
+Before Hearthstone, there were online card games like Magic: The Gathering Online and Yu-Gi-Oh! Online, but none had achieved widespread success. Despite using the Warcraft IP, the card game genre was ambiguous in its appeal to fans of World of Warcraft or other Warcraft games. This ambiguity arose because the gameplay did not involve players directly controlling Azeroth characters or engaging with the game world in a hands-on manner.
+
+Therefore, the Hearthstone development team may have proceeded with low expectations from within the company. However, by creating the most intuitive game in terms of rules and interface among existing online card games, they ultimately achieved the first mainstream success in the online card game market.
+
+<h5>Overwatch (2016)</h5>
+Overwatch, which has played a significant role in building Blizzard's recognition among teenagers since the mid-2010s, was developed by reusing assets from the failed Titan project. If Blizzard had simply abandoned the Titan project after its failure, the production costs and time spent would have been a loss for Blizzard. However, by transitioning from an MMORPG to an FPS and exploring a new market, Blizzard turned a loss into a success.
+
+In this context, the assets from Warcraft III Reforged and Heroes of the Storm also hold great potential as valuable Blizzard assets. Blizzard should explore the possibility of leveraging these assets through innovative approaches and new strategies to achieve further success. If a team develops a game for over 1.5 years, they can create a new Blizzard isometric fighting game that aligns with current and future gaming trends, possessing both new appeal and originality.
+
+I have been observing various games for a long time, repeatedly creating and testing prototypes, and have developed a passion for and skills in creating innovative combat systems and AI. However, since I have no experience in collaborative game development, I anticipate many trials and errors in actual collaboration. I am eager to overcome these challenges, learn from my colleagues, and grow. Through this process, I believe I can become a valuable member of Blizzard's game development team.
+        
+Since this project proposal comes from outside the Blizzard company, you are under no obligation to review it. Nevertheless, I sincerely hope you will consider this project with an open mind and support it.
+
+Thank you for your time and consideration.
+
+Best regards,
+Reforbli
+reforbli@gmail.com
+
+<div style="border-top: 1px solid black;">
+Dear Readers of the open letter,
+
+
+     <div style="text-align: center;">
+        <iframe width="500" height="295" src="https://www.youtube.com/embed/By9UrKqJIiY" frameborder="0" allowfullscreen></iframe>
+     </div>
+
+If you find the game fun or interesting, Please subscribe and like on YouTube. Please leave a comment on the YouTube video
+Your expression will give me great strength.
+
+If you own Warcraft III Reforged, please try playing the game and provide feedback.
+
+Thank you for your time and consideration.
+
+Best regards,
+Reforbli
+</div>
+
+      
+
+  <div class="sky-blue-background">
+
+<h1>Appendices</h1>
+
+<h2>Appendix A: Warcraft III Reforged</h2>
+<h4>A.1 Warcraft III Reforged Failure</h4>
+“Warcraft Reforged” (2020) faced challenges in meeting user expectations, particularly regarding graphic quality, optimization, user interface, and the promised cinematic game cutscenes from the 2018 BlizzCon.
+This resulted in a significant detriment to Blizzard's brand image.
+
+If Blizzard were to reinitiate “Warcraft Reforged” as an official project and deliver it according to expectations (the “Reforged FIX Project”), it would be favorable for the users disappointed with the original reforged release (2020) and could help restore Blizzard's brand image and rebuild trust with the community.
+
+
+
+<h4>A.2 Why Does Blizzard Face Challenges in Pursuing the Warcraft III Reforged FIX Project?</h4>
+However, the company faces several practical challenges in pushing forward with this initiative.
+
+<h5>(1) Further Improvement of the Existing Engine</h5>
+Enhancing the current Warcraft Reforged engine—an improved version of the engine originally released for Warcraft III in 2002—to meet or even surpass the standards showcased at BlizzCon 2018 would require addressing graphic enhancements while simultaneously solving issues related to optimization and compatibility with older code. This endeavor would necessitate significant time and resources. 
+(Had this been an easy task, it would likely have been successfully addressed in the 2020-2024 patches following the launch of Reforged.)
+
+<h5>(2) Starting with a New Engine such as Unreal Engine or Unity</h5> 
+Adopting a commercial engine such as these engine allows for the immediate utilization of the latest graphic technologies, GPU acceleration, and multi-core processing. This makes it easier to achieve or even surpass the 2018 BlizzCon level of graphics and optimization. However, it still requires significant time and resources to redevelop both the client and server programming from scratch.
+
+<h5>(3) Remaking many Campaign Game Cutscenes to the level of the 2018 BlizzCon Purification campaign.</h5>
+To achieve this, many Warcraft III game cutscenes need to be recreated using techniques such as keyframe animation, bone animation, motion capture, inverse kinematics (IK), facial animation, and procedural animation.
+
+This process will also require a significant amount of time and resources.
+
+Therefore, the “Warcraft III Reforged FIX Project” would involve substantial time and financial investments. Although reusing previous art and sound assets from “Warcraft Reforged” would reduce the time and costs, the absolute amount of time and costs would still be substantial.
+
+If the company's potential gains from this project were expected to be substantial, this would not be a significant issue. However, due to the inherent nature of this project, the company's potential gains are expected to be limited.
+
+<h4>Regardless of its past status as a masterpiece, it remains an early 2000s RTS game, which is out of step with current gaming trends</h4>
+
+<h5>-For individuals in their mid-20s or younger (as of 2024)</h5>
+These individuals did not grow up playing RTS games like Warcraft III. Instead, they engaged with games like Minecraft, Roblox, League of Legends, Hearthstone, Call of Duty, Overwatch, PUBG, and Rocket League. The complexity and entry barriers associated with early 2000s RTS games make it highly unlikely that these games will attract significant interest from this demographic.
+
+<h5>-For individuals in their late 20s and older (as of 2024)</h5>
+The strong nostalgia for Warcraft III will likely cause “Warcraft III Reforged FIX” to be received differently.
+
+These individuals might welcome “Warcraft III Reforged FIX” with interest, and most of the purchase statistics would likely be dominated by this age group. 
+However, various factors lower the expected revenue from “Warcraft III Reforged FIX”
+
+<h5>(1) Lack of New Gameplay Mechanisms, Presence of Alternative Play Options</h5>
+The prospect of experiencing Warcraft III again with new graphics might initially excite users, but this could also make them hesitate to make a purchase because the gameplay itself remains an early 2000s RTS, with game mechanisms already familiar from memory.
+<div style="border: 1px solid black;">"Wow!! is this the new graphics for Warcraft III? It feels like a completely different game compared to Reforged (2020). I will purchase this."
+vs 
+"But it's just Warcraft III with better graphics, the same game I once enjoyed. and, I can already play the game itself with the product 
+I previously purchased. Is it really necessary to make a purchase?"
+"If there’s something new in the campaign mode, there will be new cutscenes. But couldn’t I just watch them on YouTube and be satisfied? I've already played the campaign mode, and I don’t want to keep repeating it! I don’t want to spend a lot of money just for that."
+</div>
+Such internal conflicts ultimately lead to a potential decrease in purchasers.
+
+<h5>(2) Challenges in Selling to Existing Reforged Purchasers</h5>
+Selling to users who have already purchased the original Reforged (2020) is difficult, as the extensive time and costs involved in the FIX are meant to serve as corrective updates to bring the game in line with its originally advertised features and quality.
+
+<h5>(3) Challenges in Generating Additional Revenue</h5>
+The presence of alternative options and the unchanged game mechanics from 2002 make it difficult to sell the campaign.
+
+if Blizzard were to sell the Warcraft III campaign in the Reforged FIX, it could itself be controversial.
+such as: 
+<div style="border: 1px solid black;">“If some terrain and building placements are slightly changed but almost everything else existed before, why is Blizzard considering selling the campaign game to those who already purchased Reforged? It's incomprehensible.”</div>
+
+If Blizzard were to create additional expansion campaigns for the Reforged FIX that weren't part of the original Warcraft III campaign, it might make a difference. 
+However, the problem could arise again if there is no clear differentiation from Warcraft custom maps.
+
+Since 2002, many Warcraft custom maps have been released, some of which offer new Warcraft campaigns and boast exceptional quality.
+
+Any new paid expansion campaign would need to clearly distinguish itself in gameplay from these user-created Warcraft campaigns maps. However, given that game system essentially remains the same, creating a unique selling point is challenging.
+
+Therefore, if Blizzard were to introduce and sell additional expansion campaigns for the Reforged FIX, it would lead users to contemplate the following dilemmas.
+such as:
+<div style="border: 1px solid black;">"Wow! Blizzard is officially selling new Warcraft III campaign maps. I'm definitely going to purchase them!"
+vs
+"Many high-quality Warcraft campaign custom maps are available for free. How different can the gameplay of the paid Reforged Fix campaign be from these? Is it really worth paying a fee to play it?"</div>
+
+Such internal conflicts ultimately lead to a potential decrease in purchasers.
+
+
+
+<h4>A.3 Revamped Warcraft III Reforged FIX Project with "Fighters of Warcraft"</h4>
+<h5>(1) "Fighters of Warcraft" uses an isometric view, allowing for expansive spatial utilization similar to "Warcraft III," unlike traditional fighting games.</h5>
+
+<h5>(2) Although Warcraft III's campaign is an RTS game, it is heavily focused on heroes. </h5>
+Thus, By leveraging the two features described above, a new Warcraft campaign game can be created.
+(If the campaign involves multiple heroes, it could be adapted into a cooperative multiplayer campaign.
+If the campaign involves heroes plus army units, the army units could be intelligently managed by AI)
+
+<h5>Revamped Warcraft III Reforged FIX Project</h5>
+( the isometric view fighting game system and modern cartoon rendering graphics and optimization technologies from the latest engine + Warcraft III campaign + Remaking many Campaign Game Cutscenes
+to the level of the 2018 BlizzCon Purification campaign using techniques such as keyframe animation, bone animation, motion capture, inverse kinematics (IK), facial animation, and procedural animation.)
+
+This could indirectly restore Blizzard's damaged brand image due to Reforged Failure (2020) and potentially generate additional revenue.
+
+Even if users had previously played the Warcraft III RTS campaign, experiencing it with an entirely different game mechanism and modern cartoon rendering graphics implemented with the latest game engines, distinctly different from the Warcraft III custom campaign maps released after 2002, and without alternative play options through the original product, would make them recognize it as a completely new game product. This would justify its sale as a paid product, assuming the balance between game completion, volume, and price is reasonable.
+
+This new game mechanism could also appeal to younger audiences, who are not familiar with the RTS game.
+
+Successful Games that have been remade with updated graphics, gameplay mechanics, and enhanced cutscenes include:
+
+-Resident Evil 2 Remake (2019)
+-Resident Evil 3 Remake (2020)
+-Final Fantasy VII Remake (2020)
+-Dead Space Remake (2023)
+-Resident Evil 4 Remake (2023)
+
+
+                  
+                  <br>
+
+<h2>Appendix B: Why Did the Game Design of Heroes of the Storm Struggle to Gain Popularity among WoW Players?</h2>
+
+<h4>B.1 Combat Design</h4>
+<h5>B.1.1 The number of skills of the actual game character should be much smaller than the number of skills of the original character.</h5>
+For example, LichKing Arthas
+-In the Warcraft III campaign, he uses Death Coil, Death Pact, and Animate Dead.
+-In Warcraft III in-game (created with World Editor cinematics), he resurrects Sylvanas in a corrupted form.
+-In Warcraft III cinematics, he stabs with his sword saying, "Succeeding you, father!"
+-In World of Warcraft (WoW) raids, before the battle starts, he uses a freezing skill saying, "I'll keep you alive to witness the end, Fordring."
+-In World of Warcraft (WoW) raids, During the battle, he uses skills like Soul Rend, Ice Sphere, Summon Val'kyr, Summon Raging Spirits, Summon Sinister Spirits, Doom, Pain and Suffering, and Remorseless Winter.
+-In the Wrath of the Lich King cinematic, he also summons Sindragosa.
+
+As you can see, the Lich King uses more than 10 skills.
+However, the combat system in Heroes of the Storm is a slightly modified version of the Warcraft III(2002) combat system, which uses QWER for 4 skills. Consequently, when implementing the Lich King Arthas in Heroes, many of his skills must inevitably be cut.
+
+As a result, the Lich King Arthas in Hots ends up being much less complex than what players might expect.
+"Too many of the skills I expected Arthas to have are missing.
+This isn't the Arthas I was expecting..."
+
+<h5>B.1.2 The influence of control on achieving a sense of accomplishment in combat is low.</h5>
+<h6>(1) High Likelihood of Consistently Low Skill Damage in Early, Mid, and Late Game
+and Skill Cooldowns of 7 Seconds or More</h6>
+<div style="border: 1px solid black;">The damage of character skills in Heroes of the Storm is set significantly lower compared to their maximum health.
+In "Heroes of the Storm," when a hero uses a skill to deal damage to another hero,
+If the attacking hero is not an assassin, or If the target is neither an assassin nor a healer (roles with relatively low health),
+in most cases, the change in health is minimal.
+
+This phenomenon frequently occurs not only in the early game but also in the mid and late game. This combat design is a unique feature that distinguishes "Heroes of the Storm" from other Dota-like(MOBA) games.
+
+If the skills are weak, one might think that by controlling the hero well and hitting as many skills as possible in a short amount of time could be the answer.
+
+However, this is not possible in Heroes of the Storm. There are at most 4 skills, and one of them is an ultimate, which means there are only 3 skills available for regular use. Additionally, most of these skills have a cooldown of 7 seconds or more. This makes it difficult, no matter how hard players try, to inflict significant damage on enemy heroes or create scenarios where they can kill them with skill attacks.
+
+If the skills are weak, few in number, and can't be used frequently, you might think that achieving results with basic attacks could be the answer.
+
+(For example, think about FPS games like Call of Duty or Overwatch or Valorant. you can often see situations where the player can still inflict critical damage or secure kills on enemy heroes with basic attack.
+This is possible due to high DPS.
+[High Attack Speed, Low Damage, or Low Attack Speed, High Damage] )</div>
+
+<h6>(2) Limitation in performance achievable through basic attacks In HotS</h6>
+<div style="border: 1px solid black;">however, achieving significant results with basic attacks is very limited. In HotS, When you choose a random hero in Heroes of the Storm,
+-their basic attack damage is typically lower or similar to the damage of their skills. which implies that the basic attack damage is also absolutely low.
+-The rate of basic attacks per second is usually around 1 to 1.3, which is slow.
+
+Furthermore, since Heroes of the Storm is based on the Warcraft III RTS combat system, the frequency of basic attacks per second is entirely determined by the computer. Therefore, the player's control has a very low impact on how often they successfully attack.
+[Low Attack Speed, Low Damage] & [ Auto Attack System ]
+
+To illustrate, the typical 'basic attack' situation in Heroes of the Storm is like Overwatch's Soldier: 76 having his ultimate ability as a passive, but with a reload time of 1 second and a maximum bullet count of 1. Therefore, in Heroes of the Storm, no matter how hard players try, it is difficult to inflict significant damage on enemy heroes or create scenarios where they can kill them with basic attacks.
+
+This combat design reduces players' excitement and expectations of controlling Hero.
+"No matter how hard I try to control my hero, it's difficult to inflict critical damage or kill the enemy.
+As a result, No matter how hard I try to control my hero, it's hard to expect my hero to perform impressive actions during gameplay."</div>
+
+
+
+<h4>B.2 Ambiguous Casualness</h4>
+While Heroes of the Storm (HotS) is perceived as a light, casual game, it possesses elements that might not align with the casual gaming style.
+
+
+-Worms
+-Bomberman
+-Brawl Stars
+-Angry Birds
+-Candy Crush Saga
+
+These games commonly have the following characteristics:
+
+-Short match duration
+Each game typically ends within a short span, often ranging from 2 minutes to 7 minutes.
+
+-Simple controls
+The controls are very simple and can be easily mastered through a tutorial.
+
+-Intuitive rules
+The game rules are simple and can be quickly learned from the tutorial.
+
+Now, let's look at HotS,
+
+
+HotS has the following differences.
+
+<h5>B.2.1 Match duration</h5>
+Each match in HotS lasts about 15-25 minutes, and it can be longer depending on the situation. This is different from casual games that can be enjoyed in a short time.
+
+<h5>B.2.2 High Strategic Depth</h5>
+To properly enjoy HotS, various decision-making skills are required. For example:
+
+      -Identifying hero roles & activity positions:
+      What role does your chosen hero belong to? Based on this, where is it reasonable to position the hero in the early game on this map?
+
+      -Choosing hero talents:
+      On the surface, it might seem like you can choose according to your preferences, like in Vampire Survivors or Hades. However, in actual 
+      gameplay, except for special cases, you are required to pre-learn the standard correct answers.
+
+      -Managing lane experience:
+      You need to check if experience is being missed in each lane (top, middle, bottom).
+
+      -Objective timing & mercenary camp timing:
+      You need to consider when map objectives will appear and, based on this, also think about the timing for capturing mercenary camps.
+
+      -Evaluating the value of objective capture attempts:
+      In Overwatch, when an objective capture event occurs, a notification pops up in the game and prompts players to capture the objective.
+      All players simply need to follow this 'directive' as it is. The fundamental principle is to prioritize capturing or defending the objective
+      above all else. 
+      
+      However, this is different in HotS. When an objective capture event occurs in HotS,
+      a notification pops up and prompts players to capture the objective, This aspect is similar to Overwatch. but you must always 
+      think critically. Considering your team composition, level, and talent tier differences, you must determine whether it's more beneficial to 
+      forgo the objective capture attempt and take other actions.
+
+These elements are difficult to cover fully in a simple tutorial, and to deeply understand and enjoy the game, external resources or 
+extensive experience are required.
+
+Therefore, HotS may appear casual on the surface, but in reality, it is not. The average game duration of 15-25 minutes per match might seem short for a Dota-like(MOBA), but in absolute terms, it is not a game with minimal time commitment. and It requires significant strategic thinking akin to an RTS and demands strong teamwork, However, the skills required for this are not as easily learned through tutorials as they are in Hearthstone.
+
+Due to the nature of WoW, which is rich in content that requires long play sessions at a time, WoW players tend to play the game heavily in sessions that last 2-3 hours or more, rather than playing lightly. Therefore, they spend most of their available gaming time on WoW. Since leisure time is finite, WoW players typically have little room to turn their attention to other games. If they do look at other games, they usually prefer light, casual games that they can enjoy alongside WoW.
+
+In this context, Hearthstone, a game where you can quickly learn the necessary skills and rules through a tutorial and enjoy it casually, fits perfectly with the needs of WoW players. However, HotS was not such a game for WoW players.
+Given the nature of the genre, HotS could evoke and utilize memories of World of Warcraft much more effectively than a card game like Hearthstone, and it had the potential to appeal to WoW players even more strongly. 
+
+However, due to its combat design and ambiguous casualness, it failed to appeal properly to WoW players.
+ 
+</div>
+
+
+
+`;
+            break;
+
+          case "Download":
+            text.innerHTML = `                                  
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg24nylL4rA3troaHg_WhV_WUQrmAMUYux8zvp9KtZQyDHzv8Uom3BstFoXOunTg1AMs_Z5KOmT_6Y2jeT1VW_YhEFtsW-Tedb2PdXDg53nkalWgt8w50LIxSc4FdbUmZobTHBxXYJCiZ78oH1i1GRpj7tRfOAB85JM0ixt2FN5gALCDjMgs6WWJpFc_hJD/w640-h360/BestArthas150%25.gif" style="display: block; margin: auto;">
+
+    
+    Game Download <a href="https://drive.google.com/file/d/1Uee5IdI8s26GVn2wdwqd1NF6wHHdRTwk/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1Uee5IdI8s26GVn2wdwqd1NF6wHHdRTwk/view?usp=sharing</a><br><br>
+    PDF Download <a href="https://drive.google.com/file/d/1UFUMEQNKyZukTMLjruOtjNw7VFA9hnqr/view?usp=drive_link" target="_blank">https://drive.google.com/file/d/1UFUMEQNKyZukTMLjruOtjNw7VFA9hnqr/view?usp=drive_link</a><br><br>
+
+
+    <b2><h2>                                                    Important Notice</h2><br>
+    This is a custom map created using the Warcraft III Reforged editor.
+    This is not an open-source map, and code obfuscation has been applied.
+
+    to play the game, you will need the Warcraft III Reforged client.
+    You can choose between Muradin and Arthas, and only single-player mode is available.
+  
+    
+    The tutorial will automatically start.
+
+    On the character selection screen, if you type "11", 
+    you can skip the tutorial and go directly to the main game. However, if you have never done the tutorial before, it is recommended not to type 
+    anything
+
+    <div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/By9UrKqJIiY" frameborder="0" allowfullscreen></iframe>
+     </div>
+    While working with VJASS scripting, I have employed standard optimization methods available. However, due to the implementation of advanced AI, projectile movement system, and character new movement system, the custom map inevitably requires a significant amount of computational power.
+
+Even so, the custom map does not exceed the maximum computational capacity of the Warcraft III engine. However, there isn't much leeway either. Therefore, running multiple programs simultaneously while playing the custom map can occasionally cause it to crash.
+
+This issue stems from the outdated Warcraft III engine (2002), which lacks support for modern technologies such as multi-core processing and GPU acceleration.
+
+The specs I tested are as follows:
+
+CPU: i5-9400F
+RAM: 65536MB
+GPU: GeForce GTX 1660 SUPER
+If the specs are lower than this, it might significantly impact gameplay.
+
+
+<b2><h2>                                                    Special Thanks To</h2><br>
+
+<h4>Tool Script</h4>
+VJASS by Vexorian
+indexUnit,(Chat commands System)ChatEx, Lariat(Original), CustomEvent(Original) by escaco[W3UMF]
+UnitStorageManager by Howww[W3UMF]
+UI Tutorial by Tasyen, UIFrame(Original) by Quilnez
+GroupUtils by Rising_Dusk, Magtheridon96
+TimerUtils by Vexorian
+List by MaskedPoptart
+IsPointInTriangle, IsPointInRect by Nestharus,Parabolas by D4RK_G4ND4LF
+[I modifyed CustomEvent , Lariat, UIFrame]
+
+<h4>Model</h4>
+Blizzard,VictorZ, Holyravioli, Symphoneum,JetFangInferno,UUU9,Bon_Jovi,Carrington2k,Xazuki,General Frank,KAIL333XZ,Arts,
+김하링,WILL THE ALMIGHTY,Grey Knight,Mythic,Pyritie,Fingolfin,
+청려울,Valkmiere,assasin_lord,Vinz,00110000, CreatorD3292,stan0033, Kenathorn
+
+<h4>Sound</h4>
+Blizzard, https://soundeffect-lab.info/
+
+<h4>Tool</h4>
+World Editor by Blizzard
+BLP Laboratory by Shadow Daemon
+Mdlvis by Alexey
+War3 Model Editor by Magnus Ostberg
+Reteras Model Studio by Retera
+Blender Plugin-MDL Exporter by Kalle Halvarsson
+Blender Plugin-mdl-importer by Skarmory 
+
+The above text does not express everything. There may be people I forgot to include, and I want to express my gratitude to those individuals as well. Thank you all sincerely for your contributions.
+    <br><br>  
+            `;
+
+            break;
+
+          case "Muradin":
+            text.textContent = "Dogs walk on four legs.";
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute("width", "560");
+            iframe.setAttribute("height", "315");
+            iframe.setAttribute(
+              "src",
+              "https://www.youtube.com/embed/txi-Yi4qaqI"
+            );
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute(
+              "allow",
+              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            );
+            iframe.setAttribute("allowfullscreen", true);
+            content.appendChild(iframe);
+            break;
+          case "Lichking":
+            text.textContent = "Rabbits have thin ears.";
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute("width", "560");
+            iframe.setAttribute("height", "315");
+            iframe.setAttribute(
+              "src",
+              "https://www.youtube.com/embed/z0uh9Z62_r4"
+            );
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute(
+              "allow",
+              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            );
+            iframe.setAttribute("allowfullscreen", true);
+            content.appendChild(iframe);
+            break;
+
+          case "Movement":
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkPNGEnxqhUzfaht3rMHD67BDxkd9Oi7lJn37FWbAoniPhV-iaWOWL9t3FNlqLiN8baSL_TZ-B9rHxph-6-eiCoW0pmAYB13Ufm3_N96ZQxwDJ9HEGWgtY9otJO2oVN0mBBCyYDE8EdUm3pPdpJJk2EFo6wOp2l5WHvkP_527UkJGub5zUt7gHM_hPEKqc/w640-h360/MOVE2.gif",
+              " ",
+              "<strong>Auto Move</strong><br>Automatically moves in the direction of the mouse.",
+              250
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI7zObL3NmyokVyUyld_STgehCJbue4flTPa6AkRl4MHcCFEOpeHMFvmz4xFoSiT1w-ArH2A5F-o3nMZX5A1dZYk9Hxef6qvAaweb6TGI-Ltlq8LSPA2n0lBUt3t2y_XOT1NQPoSTq_mKJYa6fNjPfh1B0CcM1c4BvqMUWkNpEI2Qnf4r6KAJSz4Xh3xba/w640-h360/Arthas%20rush70.gif",
+              " ",
+              "<strong>Rush</strong><br>With Rush available, it is activated by left-clicking the mouse.",
+              100
+            );
+
+            content.innerHTML += `-Rush ends the caster's recovery period and activates.
+      <br>-Rush applies a time stop with a duration of A frames to characters near the caster<br><br><br><br><br><br>`;
+
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLPNNFS0UCnWLPYNIzGIuADF2HIo2U0AJZvSBooOteybH5Bbij-VZexNNPtGSNJ-igPAABd-yfWhyphenhyphenvGIx5-34ewtfjUUmYXV373B12RQ1dxpuGVV9boEkXGSVe_dXHLg167-1OLvjVQw12TQ3_TsmTMZaSjJMZjKihHYVDr4H6mTg7KSynrgP2xHNfNLQE/w640-h360/Arthas%20rush%20A.gif",
+              " ",
+              `<strong>Rush Attack</strong><br>During the rush duration, if a basic attack is initiated, it triggers 25% faster"`,
+              100
+            );
+
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRkcKgojwoYXUwZQJEHfjKt-aA0YqZYeF83qBMIR4SqiO1Om4p4j3DNcGv8vz8RqzTbJJcHy6O2ArW7Q9lXvaS-GnnlPlm6nqeaI1jx1py0dyLJNhYVsxAJjZ5FccaxV6iuECkSZg699rsvLLad_YhTa35RgCtCUSWdk643KKnVtyrx6WBF6E2g7KFMR94/w640-h360/Arthas%20rush%20S.gif",
+              " ",
+              `<strong>Rush Attack</strong><br>During the rush duration, if a basic attack is initiated, it triggers 25% faster"`,
+              100
+            );
+
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsLWsI-jRM-ev6OcEmuhp-_a5URR6XSahLZxbOrmdtkBJ_IwATcfLaNkYUdQV7vm9e5HamEK2mZ4tDjWHpn0gAexRJmiR-7WjEIgFI8PprOFJubvn2AZkz52m1eTS-lqu4RyaKbLF3Lu5j54eu8XgQCjAw2uFl-B__B6JrFpafVNfTfY2DgvnDd3lscX4R/w640-h360/Wake%20UP%20Dodge.gif",
+              " ",
+              "<strong>Wake Up Dodge</strong><br>When knocked down, it is activated by pressing S and D simultaneously. Mana and Rush gauge are consumed.",
+              100
+            );
+            break;
+
+          case "Offense":
+            // Basic Attack-1에 대한 이미지 추가
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghqSA97FTkcxspRRTrnsskWXJgm1pNGkdk3i0YlQFiFZuDjuSPQ7VeYPV8hNNoc7KsQYQRcMMQEFCmQS08mrUykttGANjYQDwJfJ-0cNxAbPpGdlrSOYwMB_J7Ln-hJMDC8XYr5XVjO2Hv16Ygp3dDEb_Q0-TVEyYBpTYOhUg1jO9GRXzYgJKXkY7Ca02N/w640-h360/Arthas%20A.gif",
+              "Muradin's basic attack 1 demonstration.",
+              `<strong>Basic Attack-1</strong><br>
+                You can use basic attack 1 by pressing the A key`,
+              5
+            );
+
+            // Basic Attack-2 설명 설정
+            content.innerHTML += `<br><br><br><br><br><br>`;
+
+            // Basic Attack-2에 대한 이미지 추가
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/a/AVvXsEggOhpSBn75uVm2eVrw-ndwt5ctUdu7hNWMl2CAUbb7HCo9bdja6k8VIpMBxvHFO9mBMnsca35dMaDTMlb6ZPhi4FlnWPQf3JZXYl5Z2-32xkA01rHRVUgA5Uofk21GUJgv4ZliqkM1oPFi4Z2e5RkgipwE3ZhqAvDCsLyhu7Rs-fqSswiuc2O7rqt_xH3e=w640-h360",
+              "Muradin's basic attack 2 demonstration.",
+              `<strong>Basic Attack-2</strong><br>
+                You can use basic attack 2 by pressing the S key`,
+              200
+            );
+
+            content.innerHTML += `
+                        <strong>Special Moves</strong><br>
+                                  Activate by pressing the CAPSLOCK/D/F keys. While it varies by character skill, most do not consume mana.<br>
+                                  - The Lich King Arthas's F ability consumes mana.<br><br><br>`;
+
+            content.innerHTML += `<strong>Super Moves</strong><br>
+                                  Press the E key and quickly follow with Q/W/E to activate. It is stronger than a Special Move but consumes mana.<br><br><br>`;
+
+            content.innerHTML += `<strong>Ultimate</strong><br>
+                  When possessing an ultimate ability, it is activated by pressing AS or AD simultaneously. It is significantly more powerful than a Special Move.<br>`;
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiybb66g2I1mZLVYv-LOR2omez5Hy-rBj0s8jf_bsQlLtGJG6oHGu1nEYf1TRPQ8pcye2VbM5PxVUJM3gii6Jwd3FEvJaIP7HqjUVNRW85MEUL76_hAM14MYJbqx7P7dMDEx4rSQWGTWnTmBK9jUlVIfX5DBxNIl7xM_8_zsBPqK0tFkTgHkMYP6iFODRM5/w640-h360/Arthas%20AS.gif",
+              "Muradin's basic attack 1 demonstration.",
+              "",
+              100
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhlkI_nv65CMYp7JN7emLCJJ6qF4jHBTt-GJDsyzSRWVljZ5wzFgIbTDNRutiFeMH-ujOU-1gE3716vXQrx6vbS1PqRNSEq26JPSmWoYP3PIHQewnPRwJ5o3pdlqnCS4eGC9o0EzfxlfhsZZn6rSimyJ6QfKeNRq1_rgg8c4EHxyqC65zKIpaEommG2bw1/w640-h360/Arthas%20AD%20carry%20150plus.gif",
+              "Muradin's basic attack 1 demonstration.",
+              "",
+              50
+            );
+            break;
+
+          case "Defence":
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/a/AVvXsEjescKffFN37hcTFPuazIN6Yr0Aj2hbMYNAN1Y1GDE-m1xVfMVuTjHUGGmgGHpu4sBRUMD22K-PD-xRZaShiEisd0gNMMxFj_8gL8c4XkPhm1AeO7zsxRhxPqoO7TxTeTamltFWSrHLUoJdZJJo_kPQOUij4Z7xhj44ay0PtwFJAVx3ngC_a_KdZPNUgYjD=w640-h360",
+              "Muradin's basic attack 1 demonstration.",
+              "<strong>Guard</strong> <br>Right-clicking guards in the direction of the mouse.",
+              70
+            );
+            content.innerHTML += `-Holding the right-click allows you to maintain the guard state for a longer period.<br>
+                                        -Certain attacks cannot be guarded against. e.g., Arthas AS, EE<br><br><br><br><br>`;
+
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/a/AVvXsEipBgJMAbSsCm6keReR_ub0insIBHDUIbpN_D5Y3wjZuL83Yea-GIYInMVfM-k8s0lzov7u6XI6gKCQlMe7dd-e1usHsG61DbOcx9u4mYORzQXvrDSXLlQWGOT0KHxBGhTyTBMTNgr9TFHk25YiAXCeDK7H9c0XizLLYozkRvDhJPZGcvTtP_NivPcaqJM4=w640-h360",
+              "Muradin's basic attack 1 demonstration.",
+              "<strong>Partial Guard</strong><br>If the angle difference between the attack and guard is too great, Partial Guard is activated. Compared to a regular guard, it has lower knockback absorption and damage absorption.<br><br>",
+              100
+            );
+
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/a/AVvXsEjdl0fSiv9SCRbCv4pOHV-TZHxsEMbFfUTT1VgFVT2oKxfALFTONxbikNtEQfjQjDhg4tBlYeTuv0cFXv_-xNIa5ZFRADPJydHiR6hfWI3Mp126KJLtonRKKimSrDGtCgIJc_iSy8I_ArkfC7cy5Lyxip4APYyhFwoIk57lwy-epeoaBmVzvkMIQc2NUqYF=w640-h360",
+              "Muradin's basic attack 1 demonstration.",
+              "<strong>Guard Cancel Dodge</strong> <br>After a successful guard, pressing the S and D keys simultaneously will activate a guard cancel dodge.",
+              100
+            );
+            content.innerHTML += `-The guard cancel dodge state lasts for X frames, and it is invulnerable for most of this duration, but not during frames Y to Z.<br>                                  
+                                  -If the timing to press S and D simultaneously is too fast or too slow, a 'failed' guard cancel dodge will be triggered, consuming 30% mana gauge.
+                                  <br>-Upon successfully canceling a guard, the rush gauge increases by 20% and 15% mana gauge is restored`;
+            break;
+
+          case "Tip":
+            content.innerHTML = ` <br><br><br><br><br><br>
+                                  <br><br><strong>Time Attack</strong>
+                                  <br><br>When a team first eliminates all minions of the opposing team, a 'Time Attack' begins. During this event, if the opposing team fails to eliminate this team's minions, 
+                                  <br>the heroes of this team receive a clear bonus reward of 70 health restoration and 50% mana gauge restoration.<br>
+                                  <br>                                  
+                                  <strong>Conversion</strong>
+                                  <br><br>When the spacebar is pressed, it consumes 1.0 ultimate charge to activate Conversion.
+                                  <br>
+                                  Conversion ends the caster's recovery period and activates 
+                                  <br>
+                                  Conversion applies a 10-frame time stop to characters near the caster, while the caster can act again after 6 frames.
+                                  <br>
+                                  Conversion instantly restores +150% mana gauge.
+
+                                  <br><br><strong>Minion Kill Reward[proportionalist system](not a capitalist system nor a communist system)</strong>
+                                  <br>
+                                  <br>
+                                  
+
+                                  When an enemy minion is killed, the killer regains mana.
+                                  <br>
+                                  When an enemy minion dies, if an allied hero has dealt damage to that minion, then that hero also regains mana.
+
+                                  <br><br>The mana gauge restoration is as follows:
+                                  <br><br>For the killer regaining mana gauge:
+                                  <br>
+                                  0.20 * killed minion's level * (damage ratio dealt to the dead minion + 0.25)
+                                  <br>
+                                  <br>For an allied hero unit regaining mana gauge:
+                                  <br>
+                                  0.20 * killed minion's level * (damage ratio dealt to the dead minion)
+                                  <br><br>
+                                  <strong>Other miscellaneous tips</strong>
+                                                                  
+                                  <br><br>When hit by an enemy, the rush gauge increases.<br>                                  
+                                  When health drops to 50%, the time to recharge 1 mana bar decreases by an additional 0.20 seconds, and both the rush gauge and mana are instantly restored by 0.5.<br>
+                                  When hitting an enemy, the ultimate gauge increases, and the cooldown skill gauge also rises. Mana is also restored
+                                  <br>
+                                  <br>Using a skill that requires more mana than you have results in a burnout state. While in burnout, mana skills cannot be used.<br>
+                                  <br>
+                                  The ultimate gauge is maintained into the next round.
+                                  <br>
+                                  <br>
+                                  Friendly fire is generally possible. When damage is inflicted on an ally, they receive 70% of the original damage.
+                            
+                                  <br>Minions cannot perform team kills, nor can they be affected by friendly fire.
+                                  <br>Summons cannot perform team kills, but they can be affected by friendly fire.
+                              `;
+            break;
+
+          case "History2015to2019":
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLsoN_Cm88hpsxOyy2kFHCmWJYUKCmrjcYoUfgNM3SuvwQv_GEXyXbI64sL7rk8uqGyQ1BM5IRlBhIzsR3AyDdgb5GCqH-dBUAs5yYer99DqUkNg0dxvpijNpFZeu5H-jjwcxVYUlvS-6USJpI2EH-s4ejunPCmzS08qcvxPmwjd6LCZO25J08YM8Dbg/w640-h363/1.gif",
+              " History 2015.04-2017",
+              "2015.04-2017",
+              270
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGhowVbfy0kSxGjjgXcvt2M_A2yqDRxVQbk1d__Td_QQuTeB8ADczIGJquP9U2wS6caOkcSHtP_HLx9GnoKa0BZ5V8XhPW3HHnIVYD68mB0m_WLaDT_btzI5w2fa3bqfPTyJTm81B38Y0xTErXb7GGVT4_oLDpMooCcCBTYcFbi5v3N6Da7b1H52QOqA/w640-h360/2.gif",
+              " History 2017-2019",
+              "2017-2019.11",
+              5
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM5Za9dtYLAzvOPUEi3XaLVpDBjjqUFnLn-JzyVNoOEiYDnLmHY4HcMwhjKJG2zjhPhTOqTejDMEIO_FGpmY1YH8nG8HUi-DeIcaPu-GdY5cg9LlFlEMEiKfm2aN5IgpoQdkTpP4aRIj5Zr6PEDlY9OW77ut0CS-9WBnOqybOkNLTH8QpMOBkxdU2VNQ/w640-h360/3.gif",
+              " History 2019-2021",
+              " ",
+              5
+            );
+
+            addYoutubeLinkAndText(content, "KjiSV_fIsgw", "", 270);
+            break;
+          case "History2019to2021":
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio_pwAAJV15UjUT20a-87yfLQhlqsgoo0Jrb3jA2Tbst7lR5Rz1YHF07N2id6OLRLadkw4uhWpO0MYR9qOMWEpGoEpCE_ENkawNNlwquPP4OA9npkkjSxObMoQLzyPAOJtlit0SRuuvC5BEzul-PHTJJ3JY3N4otH9eb2IEpuUBi-vOECQAMrapwEwAA/w640-h360/6.gif",
+              " History 2015.04-2017",
+              "2019.11-2021.02",
+              5
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbJNmQDNJfcfazuNl_2Krn6e4efANp3xh4LPZS0x0fwqyKf64cXYjigXjEfDAOWGGWUc58nudFMwlbae0DGz_DluMGYaQX9nA8qPOvwus2hGqemOa5o1Q6fPjN5hQKRleCHKqHXi_EbeMuxjiMyKYKRJqtnZjNQVGliWmqrEQzdPuY22nBwbQOCqVlBw/w640-h480/7.gif",
+              " History 2015.04-2017",
+              " ",
+              5
+            );
+            addYoutubeLinkAndText(content, "hh9LHp_PV7Q", "", 270);
+            break;
+          case "History2021to202306":
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg3G6SVJUNtnESnvm-sl8b-KUtS55Ts54Mhls7CNxAwkxkUwNYHkcIJVyWDCtMgHnsKCeW2Ujf0PMGG6N1uyQVgL7hXDpA5OdKo8wOqiZcIADGp4nvQ2bVSjGfybtSOVSvEKUcEQCMxJu_Tu6xFkNrLxgN9YmiXIAuAJLgBnIDuOY-RIzfV-wpuN_6Tg/w640-h336/b1.gif",
+
+              " History 2015.04-2017",
+              "2021.02-2023.06",
+              5
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJr2t1PO7UvS-UUn13VJQ-IKVqKBvhn8CD-P-LKEVwoGR5SNofNq1MtJrcy_iOqw99rxIfES6DEj7Pm0KsZR3X2FZjlBrXi_a5tzam6cpUnrSJOjAEJFE7ZJRTH6Q08DIquCXEaE5PQxfkAmy6xwd206xKB1qWUB2oLJpeqolVNYDbqq8n5jFGJqK_oA/w640-h360/b4.5.gif",
+              " History 2015.04-2017",
+              " ",
+              5
+            );
+            addYoutubeLinkAndText(content, "gBjjdhhC8FQ", "", 270);
+            break;
+          case "History202306to202311":
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI1UTlrDQ6kD2kr6ak_YbhxD8nlQeR4WKYYtPSHcp-DwOxw3QGO-5Qq5HJpVLwsTATZlWk4zOdXbjBYYxUHdMk5KR0Ox6cjxB1xjYzRxW-kCCRJISRUEZhhC0JoUG-QkNtoxSlUrMLHxYmYKZzKD3MJiED91LFEbU6f7J-QHBIVcFbcN6H3PcEiCiAEzYh/w640-h360/%EB%AC%B4%EB%9D%BC%EB%94%98%20%EB%8B%AC%EB%A0%A4%EA%B0%80%EC%84%9C%20F.gif",
+              " History 2015.04-2017",
+              "2023.06-2023.11",
+              5
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhunBegoDVMroZEIAquKCXKGFIJMdENlsiFPXOY8ruK5pGiyFB5O9qemmPMy-iSj6YKnpDgZiKOxhnop_kR29MH6i3CQXyhqGUqTN0SBEAp7yeyvV-amSSlS3pyjQYVbnc1XjuY8VyCDRKyM27WSXg6babtnD73yZu4qCeOzN4Tk3J1FFlXA_s3WFrVxf1E/w640-h360/%EC%95%84%EC%84%9C%EC%8A%A4vs%EB%94%94%EC%95%84%EB%B8%94%EB%A1%9C%201.gif",
+              " History 2015.04-2017",
+              " ",
+              5
+            );
+            addImageAndText(
+              content,
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz3yupAMWnO1d0L1LmeUPMhixevp3eLzHj0xBOgqz9SiNNByWfvVyh-6E4qtAAbLxVOp4xUi8uKd-6udFbQXNp_asFG3isZst-9BfOmouzHI_NSlWJkZzpfSzr8o_cyM_1iRAxtGNTB3ubnpy-KjH2ysHJxVwgbXYCFUFIkIQQan9_k0Kbq1d3rU-iqHGI/w640-h360/%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C%EB%A1%9C%202%EB%8B%A8%EB%B0%9C%EC%B0%A8%EA%B8%B0%20%EC%95%84%EC%84%9C%EC%8A%A4%20%ED%82%AC%20%EC%88%98%EB%B9%84.gif",
+              " History 2015.04-2017",
+              " ",
+              5
+            );
+            addYoutubeLinkAndText(content, "w2YqTGtUMuc", "", 270);
+
+            // );
+            // //
+            break;
+          case "History2023to2024":
+            addYoutubeLinkAndText(content, "By9UrKqJIiY", "", 270);
+
+            break;
+        }
+
+        content.appendChild(text);
+      }
+
+      function addYoutubeLinkAndText(content, videoId, text) {
+        // 비디오 앞에 <br><br> 태그 추가
+        var brElement = document.createElement("p");
+        brElement.innerHTML = "<br><br><br><br>";
+        content.appendChild(brElement);
+
+        // 비디오 컨테이너 생성 및 스타일 설정
+        var videoContainer = document.createElement("div");
+        videoContainer.className = "video-container"; // 클래스 추가
+        videoContainer.style.position = "relative";
+        videoContainer.style.paddingBottom = "56.25%"; // 16:9 비율 유지
+        videoContainer.style.height = "0";
+        videoContainer.style.overflow = "hidden";
+        videoContainer.style.width = "100%"; // 컨테이너의 너비를 100%로 설정하여 부모 요소의 너비에 맞춤
+        videoContainer.style.marginBottom = "0rem"; // 비디오와 텍스트 사이의 공백 조절
+
+        // iframe을 감싸는 div 생성 및 스타일 설정
+        var iframeWrapper = document.createElement("div");
+        iframeWrapper.style.display = "flex"; // Flexbox 사용
+        iframeWrapper.style.justifyContent = "center"; // 가운데 정렬
+        iframeWrapper.style.position = "absolute";
+        iframeWrapper.style.top = "0";
+        iframeWrapper.style.left = "0";
+        iframeWrapper.style.width = "100%";
+        iframeWrapper.style.height = "100%";
+
+        // iframe 생성 및 스타일 설정
+        var iframe = document.createElement("iframe");
+        iframe.src = `https://www.youtube.com/embed/${videoId}`;
+        iframe.style.width = "33%"; // 너비 조정
+        iframe.style.height = "40%"; // 높이 조정
+        iframe.frameBorder = "0";
+        iframe.allowFullscreen = true;
+
+        // iframe을 iframeWrapper에 추가
+        iframeWrapper.appendChild(iframe);
+        // iframeWrapper를 비디오 컨테이너에 추가
+        videoContainer.appendChild(iframeWrapper);
+        // 비디오 컨테이너를 지정된 content에 추가
+        content.appendChild(videoContainer);
+
+        // 선택적으로 텍스트 또는 추가 콘텐츠 추가
+        if (text) {
+          var textElement = document.createElement("p");
+          textElement.innerHTML = text; // 텍스트 추가
+          textElement.style.marginTop = "10px"; // 텍스트 요소의 상단 공백 조절
+          textElement.style.marginBottom = "10px"; // 텍스트 요소의 하단 공백 조절
+          content.appendChild(textElement);
+        }
+      }
+
+      function addImageAndText(
+        content,
+        imgUrl,
+        altText,
+        periodText,
+        marginBottom
+      ) {
+        // 텍스트 요소 생성 및 스타일 설정
+        var textElement = document.createElement("p");
+        textElement.innerHTML = "<br><br><br><br>" + periodText; // 텍스트 앞에 <br><br> 추가
+        textElement.style.textAlign = "center"; // 텍스트를 가운데 정렬
+        textElement.style.marginBottom = "15px"; // 텍스트와 이미지 사이의 공백 조절
+        textElement.style.fontSize = "27px"; // 텍스트의 크기를 27px로 설정
+
+        // 이미지 컨테이너 생성 및 스타일 설정
+        var imgContainer = document.createElement("div");
+        imgContainer.style.textAlign = "center"; // 이미지를 가운데 정렬
+        imgContainer.style.marginBottom = marginBottom + "px";
+
+        // 이미지 요소 생성 및 속성 설정
+        var img = document.createElement("img");
+        img.setAttribute("src", imgUrl);
+        img.setAttribute("alt", altText);
+        img.style.marginTop = "0px"; // 이미지 상단의 공백 조절
+
+        imgContainer.appendChild(img);
+
+        // 이미지 컨테이너와 텍스트 요소를 지정된 content에 추가
+        content.appendChild(textElement);
+        content.appendChild(imgContainer);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var gameIntroTab = document.querySelector("nav ul li a[href='#']");
+        gameIntroTab.classList.add("active");
+        showContent("GameIntro", gameIntroTab);
+      });
+    </script>
+  </body>
+</html>
